@@ -1,0 +1,17 @@
+.login {
+  height: 100vh;
+
+}
+.login_inner{
+
+  height: 100vh;
+  align-items: center;
+}
+.btn-primary-bridge{
+  background-color: #3494D1;
+  color: white;
+  height: 45px;
+}
+
+
+
