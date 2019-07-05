@@ -1,5 +1,5 @@
 import React from 'react';
-import bridge from '../img/BRIDGE.png'
+import bridge from '../img/BRIDGE.svg'
 import '../Components/Login.css';
 
 
@@ -14,7 +14,6 @@ function Login() {
         <div className="form-group">
           <label >User Name</label>
           <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="Enter your ID"></input>
-
         </div>
 
         <div className="form-group">
@@ -22,7 +21,7 @@ function Login() {
           <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="Enter your ID"></input>
 
         </div>
-        <button type="button" class="btn btn-primary-bridge btn-block mt-5" href="./Dashboard" >Primary</button>
+        <button type="button" class="btn btn-primary-bridge btn-block mt-5" href="./Dashboard" >Sign In</button>
         <div className="mx-auto text-center pt-2">
           <p className="d-inline">Don’t have an account </p><a href="./Dashboard">Sign up</a>
           </div>

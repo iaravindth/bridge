@@ -11,24 +11,18 @@
  .nav-tabs .nav-item .nav-link{
      padding: 0.8rem 2rem;
 }
- .form-box{
-     padding: 2rem;
-     border: 1px solid #E2E2E2;
- }
- .form-description{
-     color: #32343a61;
- }
+
 .nav-tabs .nav-link{
     border: 1px solid #E2E2E2;
     border-top-left-radius: 0rem;
     border-top-right-radius: 0rem;
 }
-.form-control{
-    height: calc(2.25rem + 16px);
-    border-radius: 0;
-}
+
 .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active
 {
     background-color: #e8f2ff;
     border-color: #fff0 #fff0 #3494D1 #fff;
+}
+.nav-link{
+    padding-top: 9px;
 }
