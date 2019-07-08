@@ -4,6 +4,7 @@
     color: #fff;
     transition: all 0.3s;
     height: calc(100vh - 30px);
+    border-right: 1px solid #e8e8e8;
 }
 
 #sidebar .sidebar-header {
@@ -31,7 +32,7 @@
 #sidebar ul li a:hover {
     color: #1C81FD;
     text-decoration: none;
-    font-weight: 500;
+
    
 }
 
