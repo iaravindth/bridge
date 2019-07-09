@@ -53,7 +53,7 @@ function Material() {
                         </div>
                         <div class="modal-footer">
 
-                            <button type="button" class="btn btn-primary-bridge-close" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary-bridge-close" data-dismiss="modal">Cancel</button>
                             <button type="button" class="btn btn-primary-bridge ">Save </button>
                         </div>
                     </div>

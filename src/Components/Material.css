@@ -37,3 +37,6 @@
     border-radius: 0;
     border: 1px solid #172B50;
 }
+.modal-content{
+     border-radius: 0; 
+}
