@@ -12,3 +12,28 @@
     height: calc(2.25rem + 16px);
     border-radius: 0;
 }
+.table thead th{
+    border-bottom: none; 
+}
+.table th{
+    border-top: 1px solid #efefef;
+    padding: .9rem;
+}
+.table td{
+    padding: .9rem;
+}
+.btn-line-primary-bridge{
+    background-color: transparent;
+    color: #172B50;
+    height: 46px;
+    border-radius: 0;
+    border: 1px solid #172B50;
+    padding: 10px 32px;
+}
+.btn-primary-bridge-close{
+    background-color: #ffff;
+    color: #172B50;
+    height: 45px;
+    border-radius: 0;
+    border: 1px solid #172B50;
+}

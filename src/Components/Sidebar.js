@@ -14,7 +14,7 @@ function Dashboard() {
 
         <ul class="list-unstyled components">
         <li>
-                <a href="#">Dashboard</a>
+                <a href="#"> <span className="dashboard"></span> Dashboard</a>
             </li>
             {/* <li class="active">
                 <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Home</a>
@@ -26,15 +26,8 @@ function Dashboard() {
                 </ul>
             </li> */}
             <li>
-                <a href="#">Material</a>
+                <a href="#"> <span className="material"></span> Material</a>
             </li>
-            <li>
-                <a href="#">Client</a>
-            </li>
-            <li>
-                <a href="#">Vendor</a>
-            </li>
-
         </ul>
     </nav>
         </div>
