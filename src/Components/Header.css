@@ -26,3 +26,11 @@
 .nav-link{
     padding-top: 9px;
 }
+.dropdown-menu{
+    right: 7px;
+    left: unset;
+}
+#sidebar ul li.active > a, a[aria-expanded="true"] {
+    color: #fff !important;
+    background: #fff !important;
+}

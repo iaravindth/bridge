@@ -13,7 +13,7 @@ function Dashboard() {
        
 
         <ul class="list-unstyled components">
-        <li>
+        <li className="pb-2">
                 <a href="#"> <span className="dashboard"></span> Dashboard</a>
             </li>
             {/* <li class="active">
@@ -25,7 +25,7 @@ function Dashboard() {
                   
                 </ul>
             </li> */}
-            <li>
+            <li className="pb-2">
                 <a href="#"> <span className="material"></span> Material</a>
             </li>
         </ul>

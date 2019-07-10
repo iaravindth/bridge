@@ -13,10 +13,10 @@ function Dashboard() {
           <div className="col-lg-12"> 
               <Header></Header>
           </div>
-          <div className="col-lg-2">
+          <div className="col-lg-2 pr-0">
               <Sidebar></Sidebar>
           </div>
-        <div className="col-lg-10">
+        <div className="col-lg-10 content-area">
            
             <Material></Material>   
         </div>
