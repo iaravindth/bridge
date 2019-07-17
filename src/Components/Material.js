@@ -115,19 +115,19 @@ function Material() {
                                     <h5 className="pb-3">HS Code</h5>
                                     <div className="row">
 
-                                        <div className=" col-4">
+                                        <div className=" col-6">
                                             <label for="exampleFormControlInput1">Client Name</label>
                                             <input type="email" class="form-control" id="" placeholder="Material ID"></input>
 
                                         </div>
 
-                                        <div className=" col-4">
+                                        <div className=" col-6">
                                             <label for="exampleFormControlInput1">HS Code</label>
                                             <input type="email" class="form-control" id="" placeholder="Material ID"></input>
 
                                         </div>
 
-                                        <div className=" col-4">
+                                        <div className=" col-6">
                                             <div class="form-group">
                                                 <label for="exampleFormControlSelect1">Priority</label>
                                                 <select class="form-control" id="">
@@ -145,28 +145,28 @@ function Material() {
                                     <h5 className="pb-3">Regulatory Approval</h5>
                                     <div className="row">
 
-                                        <div className=" col-2">
+                                        <div className=" col-4">
                                             <label for="exampleFormControlInput1">Reference / Test </label>
                                             <input type="email" class="form-control" id="" placeholder="Reference / Test"></input>
 
                                         </div>
 
-                                        <div className=" col-3">
+                                        <div className=" col-4">
                                             <label for="exampleFormControlInput1">Aproval Obtaining Stage</label>
                                             <input type="email" class="form-control" id="" placeholder="Aproval Obtaining Stage"></input>
 
                                         </div>
-                                        <div className=" col-2">
+                                        <div className=" col-4">
                                             <label for="exampleFormControlInput1">Institute Name</label>
                                             <input type="email" class="form-control" id="" placeholder="Institute Name"></input>
 
                                         </div>
-                                        <div className=" col-2">
+                                        <div className=" col-4">
                                             <label for="exampleFormControlInput1">Sample Required</label>
                                             <input type="email" class="form-control" id="" placeholder="Sample Required"></input>
 
                                         </div>
-                                        <div className=" col-2">
+                                        <div className=" col-4">
                                             <label for="exampleFormControlInput1">Release Time Days</label>
                                             <input type="email" class="form-control" id="" placeholder="Release Time Days"></input>
 
@@ -251,8 +251,16 @@ function Material() {
                         </tr>
                     </tbody>
                 </table>
+                <nav aria-label="Page navigation">
+  <ul class="pagination float-right">
+    <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+    <li class="page-item"><a class="page-link" href="#">1</a></li>
+    <li class="page-item"><a class="page-link" href="#">2</a></li>
+    <li class="page-item"><a class="page-link" href="#">3</a></li>
+    <li class="page-item"><a class="page-link" href="#">Next</a></li>
+  </ul>
+</nav>
             </div>
-
         </div>
 
     );
