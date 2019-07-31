@@ -144,33 +144,16 @@ function Material() {
                                     <hr></hr>
                                     <h5 className="pb-3">Regulatory Approval</h5>
                                     <div className="row">
-
-                                        <div className=" col-4">
-                                            <label for="exampleFormControlInput1">Reference / Test </label>
-                                            <input type="email" class="form-control" id="" placeholder="Reference / Test"></input>
-
-                                        </div>
-
-                                        <div className=" col-4">
-                                            <label for="exampleFormControlInput1">Aproval Obtaining Stage</label>
-                                            <input type="email" class="form-control" id="" placeholder="Aproval Obtaining Stage"></input>
-
-                                        </div>
-                                        <div className=" col-4">
-                                            <label for="exampleFormControlInput1">Institute Name</label>
-                                            <input type="email" class="form-control" id="" placeholder="Institute Name"></input>
-
-                                        </div>
-                                        <div className=" col-4">
-                                            <label for="exampleFormControlInput1">Sample Required</label>
-                                            <input type="email" class="form-control" id="" placeholder="Sample Required"></input>
-
-                                        </div>
-                                        <div className=" col-4">
-                                            <label for="exampleFormControlInput1">Release Time Days</label>
-                                            <input type="email" class="form-control" id="" placeholder="Release Time Days"></input>
-
-                                        </div>
+<div className=" col-12">
+<ul class="list-group list-group-flush">
+  <li class="list-group-item">Reference / Test <span className="float-right"> Master Data</span> </li>
+  <li class="list-group-item">Aproval Obtaining Stage <span className="float-right"> Master Data</span> </li>
+  <li class="list-group-item">Institute Name <span className="float-right"> Master Data</span></li>
+  <li class="list-group-item">Sample Required <span className="float-right"> Master Data</span></li>
+  <li class="list-group-item">Release Time Days <span className="float-right"> Master Data</span> </li>
+</ul>
+</div>
+                                        
 
                                     </div>
                                 </div>
@@ -179,26 +162,14 @@ function Material() {
                                     <hr></hr>
                                     <h5 className="pb-3">Trade Agreements</h5>
                                     <div className="row">
+                                    <div className=" col-12">
+<ul class="list-group list-group-flush">
+  <li class="list-group-item">Agreement Type <span className="float-right"> Agreement Type Data</span> </li>
+  <li class="list-group-item">Application Tarriff <span className="float-right"> Application Tarriff Data</span> </li>
+  <li class="list-group-item">Document <span className="float-right"> Document Data</span></li>
 
-                                        <div className=" col-4">
-                                            <label for="exampleFormControlInput1"> Agreement Type</label>
-                                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Agreement Type"></input>
-
-                                        </div>
-
-                                        <div className=" col-4">
-                                            <label for="exampleFormControlInput1">Application Tarriff</label>
-                                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Application Tarriff"></input>
-
-                                        </div>
-
-                                        <div className=" col-4">
-                                            <div class="form-group">
-                                                <label for="exampleFormControlSelect1">Document</label>
-                                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Document"></input>
-
-                                            </div>
-                                        </div>
+</ul>
+</div>
                                     </div>
                                 </div>
 
