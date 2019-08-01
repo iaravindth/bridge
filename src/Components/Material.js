@@ -144,16 +144,16 @@ function Material() {
                                     <hr></hr>
                                     <h5 className="pb-3">Regulatory Approval</h5>
                                     <div className="row">
-<div className=" col-12">
-<ul class="list-group list-group-flush">
-  <li class="list-group-item">Reference / Test <span className="float-right"> Master Data</span> </li>
-  <li class="list-group-item">Aproval Obtaining Stage <span className="float-right"> Master Data</span> </li>
-  <li class="list-group-item">Institute Name <span className="float-right"> Master Data</span></li>
-  <li class="list-group-item">Sample Required <span className="float-right"> Master Data</span></li>
-  <li class="list-group-item">Release Time Days <span className="float-right"> Master Data</span> </li>
-</ul>
-</div>
-                                        
+                                        <div className=" col-12">
+                                            <ul class="list-group list-group-flush">
+                                                <li class="list-group-item">Reference / Test <span className="float-right"> Master Data</span> </li>
+                                                <li class="list-group-item">Aproval Obtaining Stage <span className="float-right"> Master Data</span> </li>
+                                                <li class="list-group-item">Institute Name <span className="float-right"> Master Data</span></li>
+                                                <li class="list-group-item">Sample Required <span className="float-right"> Master Data</span></li>
+                                                <li class="list-group-item">Release Time Days <span className="float-right"> Master Data</span> </li>
+                                            </ul>
+                                        </div>
+
 
                                     </div>
                                 </div>
@@ -162,14 +162,14 @@ function Material() {
                                     <hr></hr>
                                     <h5 className="pb-3">Trade Agreements</h5>
                                     <div className="row">
-                                    <div className=" col-12">
-<ul class="list-group list-group-flush">
-  <li class="list-group-item">Agreement Type <span className="float-right"> Agreement Type Data</span> </li>
-  <li class="list-group-item">Application Tarriff <span className="float-right"> Application Tarriff Data</span> </li>
-  <li class="list-group-item">Document <span className="float-right"> Document Data</span></li>
+                                        <div className=" col-12">
+                                            <ul class="list-group list-group-flush">
+                                                <li class="list-group-item">Agreement Type <span className="float-right"> Agreement Type Data</span> </li>
+                                                <li class="list-group-item">Application Tarriff <span className="float-right"> Application Tarriff Data</span> </li>
+                                                <li class="list-group-item">Document <span className="float-right"> Document Data</span></li>
 
-</ul>
-</div>
+                                            </ul>
+                                        </div>
                                     </div>
                                 </div>
 
@@ -187,6 +187,7 @@ function Material() {
             </div>
 
             <div className="col-lg-11 table-wraper">
+                <div className="">
                 <table class="table table-hover">
                     <thead class="material-table-th">
                         <tr>
@@ -220,17 +221,53 @@ function Material() {
                             <td>Data</td>
                             <td>Data</td>
                         </tr>
+                        <tr>
+                            <td>Data</td>
+                            <td>Data</td>
+                            <td>Data</td>
+                            <td>Data</td>
+                            <td>Data</td>
+                        </tr>
+                        <tr>
+                            <td>Data</td>
+                            <td>Data</td>
+                            <td>Data</td>
+                            <td>Data</td>
+                            <td>Data</td>
+                        </tr>
+                        <tr>
+                            <td>Data</td>
+                            <td>Data</td>
+                            <td>Data</td>
+                            <td>Data</td>
+                            <td>Data</td>
+                        </tr>
+                        <tr>
+                            <td>Data</td>
+                            <td>Data</td>
+                            <td>Data</td>
+                            <td>Data</td>
+                            <td>Data</td>
+                        </tr>
+                        <tr>
+                            <td>Data</td>
+                            <td>Data</td>
+                            <td>Data</td>
+                            <td>Data</td>
+                            <td>Data</td>
+                        </tr>
                     </tbody>
                 </table>
+                </div>
                 <nav aria-label="Page navigation">
-  <ul class="pagination float-right">
-    <li class="page-item"><a class="page-link" href="#">Previous</a></li>
-    <li class="page-item"><a class="page-link" href="#">1</a></li>
-    <li class="page-item"><a class="page-link" href="#">2</a></li>
-    <li class="page-item"><a class="page-link" href="#">3</a></li>
-    <li class="page-item"><a class="page-link" href="#">Next</a></li>
-  </ul>
-</nav>
+                    <ul class="pagination float-right mt-2 mb-0">
+                        <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                        <li class="page-item"><a class="page-link" href="#">1</a></li>
+                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                    </ul>
+                </nav>
             </div>
         </div>
 

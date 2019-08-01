@@ -60,4 +60,7 @@
     border-top: none;}
 .page-link{
         color: #1A2B50;
+        background-color:transparent; 
+    border: transparent; 
+    
     }
