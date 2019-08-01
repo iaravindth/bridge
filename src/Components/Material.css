@@ -23,11 +23,11 @@
     padding: .9rem;
 }
 .btn-line-primary-bridge{
-    background-color: transparent;
+    background-color: #fafdff;
     color: #172B50;
     height: 46px;
     border-radius: 0;
-    border: 1px solid #172B50;
+    border: 1px solid #bfbfbf;
     padding: 10px 32px;
 }
 .btn-primary-bridge-close{
@@ -62,5 +62,5 @@
         color: #1A2B50;
         background-color:transparent; 
     border: transparent; 
-    
+
     }
