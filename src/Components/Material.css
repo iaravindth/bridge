@@ -23,7 +23,7 @@
     padding: .9rem;
 }
 .btn-line-primary-bridge{
-    background-color: #fafdff;
+    background-color: #fff;
     color: #172B50;
     height: 46px;
     border-radius: 0;
@@ -48,7 +48,7 @@
     background-color: transparent;
 }
 .table-wraper{
-    background: #fafdff;
+    background: #ffffff;
     padding: 20px;
   
     box-shadow: 0 1px 4px rgba(123, 123, 123, 0.3), 0px 7px 17px 0px rgb(255, 255, 255);
