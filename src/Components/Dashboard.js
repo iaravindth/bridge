@@ -3,7 +3,8 @@ import '../Components/Dashboard.css';
 import Header from './Header';
 import Material from './Material';
 import Sidebar from './Sidebar';
-
+import Supplier from './Supplier';
+import Client from './Client';
 
 
 function Dashboard() {
@@ -17,8 +18,9 @@ function Dashboard() {
               <Sidebar></Sidebar>
           </div>
         <div className="col-lg-10 content-area">
-           
-            <Material></Material>   
+          <Client></Client>
+          {/* <Supplier></Supplier>
+             <Material></Material>    */}
         </div>
         </div>
     </div>

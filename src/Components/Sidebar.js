@@ -28,6 +28,12 @@ function Dashboard() {
             <li className="pb-2">
                 <a href="#"> <span className="material"></span> Material</a>
             </li>
+            <li className="pb-2">
+                <a href="#"> <span className="material"></span> Supplier</a>
+            </li>
+            <li className="pb-2">
+                <a href="#"> <span className="material"></span> Client</a>
+            </li>
         </ul>
     </nav>
         </div>
