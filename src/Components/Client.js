@@ -70,6 +70,66 @@ function Client() {
                   
                             </div>
 
+                            <hr></hr>
+                            <div className="row pr-3 pl-3">
+                           
+                                    <div className=" col-6 form-box mt-2">
+                                    <label for="exampleFormControlInput1">Contact Name</label>
+                                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Contact Person"  ></input>
+                                </div>
+                                <div className=" col-6 form-box mt-2">
+                                    <label for="exampleFormControlInput1">Designation</label>
+                                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Payment Terms" ></input>
+                                </div>
+                                <div className=" col-6 form-box mt-2">
+                                    <label for="exampleFormControlInput1">Contact Number</label>
+                                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Telephone" ></input>
+                                </div>
+                                <div className=" col-6 form-box mt-2">
+                                    <label for="exampleFormControlInput1">Email</label>
+                                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Mobile" ></input>
+                                </div>
+                                <div className=" col-6 form-box mt-2">
+                                    <label for="exampleFormControlInput1">Other</label>
+                                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email" ></input>
+                                </div>
+                            </div>
+
+                            <hr></hr>
+                            <div className="row pr-3 pl-3">
+                           
+                                    <div className=" col-6 form-box mt-2">
+                                    <label for="exampleFormControlInput1">Entity Name</label>
+                                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Entity Name"  ></input>
+                                </div>
+                                <div className=" col-6 form-box mt-2">
+                                    <label for="exampleFormControlInput1">Address</label>
+                                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Address" ></input>
+                                </div>
+                                <div className=" col-6 form-box mt-2">
+                                    <label for="exampleFormControlInput1">Tax Identification Number</label>
+                                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Telephone" ></input>
+                                </div>
+                                <div className=" col-6 form-box mt-2">
+                                    <label for="exampleFormControlInput1">VAT Number</label>
+                                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Mobile" ></input>
+                                </div>
+                                <div className=" col-6 form-box mt-2">
+                                    <label for="exampleFormControlInput1">Business Registration Number</label>
+                                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email" ></input>
+                                </div>
+                                <div className=" col-6 form-box mt-2">
+                                <div class="">
+                                        <label for="exampleFormControlSelect1">Status</label>
+                                        <select class="form-control" id="exampleFormControlSelect1">
+                                            <option>1</option>
+                                            <option>2</option>
+                                      
+                                        </select>
+                                    </div>
+                                    </div>
+                            </div>
+
                         </div>
                         <div class="modal-footer">
 
