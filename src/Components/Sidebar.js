@@ -34,6 +34,19 @@ function Dashboard() {
             <li className="pb-2">
                 <a href="#"> <span className="material"></span> Client</a>
             </li>
+            <li className="pb-2">
+                <a href="#"> <span className="material"></span> Regulatory</a>
+            </li>
+            <li className="pb-2">
+                <a href="#"> <span className="material"></span> Payment</a>
+            </li>
+            <li className="pb-2">
+                <a href="#"> <span className="material"></span> Incoterm</a>
+            </li>
+            <li className="pb-2">
+                <a href="#"> <span className="material"></span> B/L Type</a>
+            </li>
+            
         </ul>
     </nav>
         </div>

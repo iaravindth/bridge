@@ -5,6 +5,12 @@ import Material from './Material';
 import Sidebar from './Sidebar';
 import Supplier from './Supplier';
 import Client from './Client';
+import Regulatory from './Regulatory';
+import Payments from './Payments';
+import Incoterm from './Incoterm';
+import BLtype from './BLtype';
+import Stakeholder from './Stakeholder';
+import Advancepayment from './Advancepayment';
 
 
 function Dashboard() {
@@ -18,8 +24,17 @@ function Dashboard() {
               <Sidebar></Sidebar>
           </div>
         <div className="col-lg-10 content-area">
+        
+         <Advancepayment></Advancepayment>
+       
+          {/* 
+           <Stakeholder></Stakeholder>
+           <BLtype></BLtype>
+          <Incoterm></Incoterm>
+           <Payments></Payments>
+          <Regulatory></Regulatory>
           <Client></Client>
-          {/* <Supplier></Supplier>
+          <Supplier></Supplier>
              <Material></Material>    */}
         </div>
         </div>

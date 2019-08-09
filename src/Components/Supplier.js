@@ -159,7 +159,7 @@ function Material() {
                 <div className="">
                     <div className="col-12 form-box mt-2 mb-4">
                         <div className="float-right">
-                            <button type="button" class="btn btn-line-primary-bridge " data-toggle="modal" data-target=".bd-example-modal-lg" >Add</button>
+                            <button type="button" class="btn btn-line-primary-bridge " data-toggle="modal" data-target=".bd-example-modal-lg" >Add Supplier</button>
                         </div>
                     </div>
                     <table class="table table-hover">
