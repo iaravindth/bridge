@@ -46,6 +46,13 @@ function Dashboard() {
             <li className="pb-2">
                 <a href="#"> <span className="material"></span> B/L Type</a>
             </li>
+            <li className="pb-2">
+                <a href="#"> <span className="material"></span>  Letter of credit </a>
+            </li>
+            <li className="pb-2">
+                <a href="#"> <span className="material"></span>  HS Code </a>
+            </li>
+           
             
         </ul>
     </nav>

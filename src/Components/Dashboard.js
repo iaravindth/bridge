@@ -11,6 +11,7 @@ import Incoterm from './Incoterm';
 import BLtype from './BLtype';
 import Stakeholder from './Stakeholder';
 import Advancepayment from './Advancepayment';
+import LetterOfCredit from '../LetterOfCredit ';
 
 
 function Dashboard() {
@@ -25,9 +26,10 @@ function Dashboard() {
           </div>
         <div className="col-lg-10 content-area">
         
-         <Advancepayment></Advancepayment>
+        <LetterOfCredit></LetterOfCredit>
        
           {/* 
+          <Advancepayment></Advancepayment>
            <Stakeholder></Stakeholder>
            <BLtype></BLtype>
           <Incoterm></Incoterm>

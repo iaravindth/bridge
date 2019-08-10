@@ -1,8 +1,8 @@
 import React from 'react';
-import '../Components/Client.css';
 
 
-function Regulatory() {
+
+function LetterOfCredit() {
     return (
         <div className="row pl-5 pt-4">
 
@@ -12,7 +12,7 @@ function Regulatory() {
                 <div class="modal-dialog modal-lg" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalLabel">Create Regulatory</h5>
+                            <h5 class="modal-title" id="exampleModalLabel">Create Letter Of Credit</h5>
 
                         </div>
                         <div class="modal-body">
@@ -20,67 +20,72 @@ function Regulatory() {
                             <div className="row pr-3 pl-3">
 
                                 <div className="col-6 form-box mt-2">
-                                    <label for="exampleFormControlInput1">Authority/Institute Name</label>
-                                    <input type="email" class="form-control readonly " id="" placeholder="Authority/Institute Name"  ></input>
+                                    <label for="exampleFormControlInput1">Client PO Number</label>
+                                    <input type="text" class="form-control readonly " id="" placeholder="Client PO Number" disabled ></input>
                                 </div>
 
                                 <div className=" col-6 form-box mt-2">
-                                    <label for="exampleFormControlInput1">Reference / Test Name</label>
-                                    <input type="email" class="form-control" id="" placeholder="Reference / Test Name"></input>
+                                    <label for="exampleFormControlInput1">PO Number</label>
+                                    <input type="text" class="form-control" id="" placeholder="PO Number" disabled></input>
                                 </div>
 
                                 <div className=" col-6 form-box mt-2">
-                                    <label for="exampleFormControlInput1">Release time in days</label>
-                                    <input type="email" class="form-control" id="" placeholder="Release time in days"></input>
-                                </div>
-                                <div className=" col-6 form-box mt-2">
-                                    <div class="">
-                                        <label for="exampleFormControlSelect1">Sample Requirement</label>
-                                        <select class="form-control" id="">
-                                            <option>1</option>
-                                            <option>2</option>
-                                            <option>3</option>
-                                            <option>4</option>
-                                            <option>5</option>
-                                        </select>
-                                    </div>
-                                </div>
-                                <div className=" col-6 form-box mt-2">
-                                    <label for="exampleFormControlInput1">Average Release Time</label>
-                                    <input type="email" class="form-control" id="" placeholder="VAT"></input>
-                                </div>
-                                <div className=" col-6 form-box mt-2">
-                                    <div class="">
-                                        <label for="exampleFormControlSelect1">Approval Obtaining Stage</label>
-                                        <select class="form-control" id="">
-                                            <option>1</option>
-                                            <option>2</option>
-                                            <option>3</option>
-                                            <option>4</option>
-                                            <option>5</option>
-                                        </select>
-                                    </div>
+                                    <label for="exampleFormControlInput1">Supplier</label>
+                                    <input type="text" class="form-control" id="" placeholder="Supplier" disabled></input>
                                 </div>
 
+                                <div className=" col-6 form-box mt-2">
+                                    <label for="exampleFormControlInput1">Supplier PI / Agreementnumber</label>
+                                    <input type="text" class="form-control" id="" placeholder="Supplier PI / Agreementnumber" ></input>
+                                </div>
 
+                                <div className=" col-6 form-box mt-2">
+                                    <label for="exampleFormControlInput1">Amount</label>
+                                    <input type="text" class="form-control" id="" placeholder="Amount" ></input>
+                                </div>
+                                <div className=" col-6 form-box mt-2">
+                                    <label for="exampleFormControlInput1">Incoterm</label>
+                                    <input type="text" class="form-control" id="" placeholder="Incoterm" disabled></input>
+                                </div>
+                                <div className=" col-6 form-box mt-2">
+                                    <label for="exampleFormControlInput1">Remitting Bank (Local)</label>
+                                    <input type="text" class="form-control" id="" placeholder="Remitting Bank (Local)" disabled></input>
+                                </div>
+                                <div className=" col-6 form-box mt-2">
+                                    <label for="exampleFormControlInput1">Benificiary Bank</label>
+                                    <input type="text" class="form-control" id="" placeholder="Benificiary Bank" ></input>
+                                </div>
+                                <div className=" col-6 form-box mt-2">
+                                    <label for="exampleFormControlInput1">LC Date</label>
+                                    <input type="text" class="form-control" id="" placeholder="LC Date" ></input>
+                                </div>
+                                <div className=" col-6 form-box mt-2">
+                                    <label for="exampleFormControlInput1">Expiry Date</label>
+                                    <input type="text" class="form-control" id="" placeholder="Expiry Date" ></input>
+                                </div>
+                           
                             </div>
 
                             <hr>
                             </hr>
                             <h5 className="pb-3">Attachment</h5>
                             <div className="row pr-3 pl-3">
+                            <div className=" col-6 form-box mt-2">
+
+<label for="exampleFormControlInput1">Attachment</label>
+<div class="custom-file">
+<input type="file" class="custom-file-input" id="customFile"></input>
+<label class="custom-file-label" for="customFile">Choose file</label>
+</div>
+</div>
+
                                 <div className=" col-6 form-box mt-2">
-                                    <label for="exampleFormControlInput1">Document Name</label>
-                                    <input type="email" class="form-control" id="exampleormControlInput1" placeholder="Document Name"  ></input>
+                                    <label for="exampleFormControlInput1">Reference</label>
+                                    <input type="email" class="form-control" id="exampleormControlInput1" placeholder="Document Name" disabled ></input>
                                 </div>
-                                <div className=" col-6 form-box mt-2">
-                                    <label for="exampleFormControlInput1">Description</label>
-                                    <input type="email" class="form-control" id="" placeholder="Type"  ></input>
-                                </div>
-       
                                 <div className=" col-6 form-box mt-2">
                                     <div class="">
-                                        <label for="exampleFormControlSelect1">Mandotory</label>
+                                        <label for="exampleFormControlSelect1">Type</label>
                                         <select class="form-control" id="">
                                             <option>1</option>
                                             <option>2</option>
@@ -90,6 +95,20 @@ function Regulatory() {
                                         </select>
                                     </div>
                                 </div>
+                                <div className=" col-6 form-box mt-2">
+                                    <label for="exampleFormControlInput1">Posting Data Time</label>
+                                    <input type="email" class="form-control" id="" placeholder="Posting Data Time"  ></input>
+                                </div>
+                                <div className=" col-6 form-box mt-2">
+                                    <label for="exampleFormControlInput1">Payment Transfer Date</label>
+                                    <input type="email" class="form-control" id="" placeholder="Payment Transfer Date"  ></input>
+                                </div>
+                                <div className=" col-6 form-box mt-2">
+                                    <label for="exampleFormControlInput1"> Completing Date</label>
+                                    <input type="email" class="form-control" id="" placeholder=" Completing Date"  ></input>
+                                </div>
+       
+                             
                             </div>
                  
                         </div>
@@ -195,5 +214,5 @@ function Regulatory() {
     );
 }
 
-export default Regulatory;
+export default LetterOfCredit;
 
