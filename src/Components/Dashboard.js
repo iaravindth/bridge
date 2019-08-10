@@ -12,6 +12,7 @@ import BLtype from './BLtype';
 import Stakeholder from './Stakeholder';
 import Advancepayment from './Advancepayment';
 import LetterOfCredit from '../LetterOfCredit ';
+import HScode from './HSCode';
 
 
 function Dashboard() {
@@ -25,10 +26,12 @@ function Dashboard() {
               <Sidebar></Sidebar>
           </div>
         <div className="col-lg-10 content-area">
+          <HScode></HScode>
         
-        <LetterOfCredit></LetterOfCredit>
+        
        
           {/* 
+          <LetterOfCredit></LetterOfCredit>
           <Advancepayment></Advancepayment>
            <Stakeholder></Stakeholder>
            <BLtype></BLtype>
