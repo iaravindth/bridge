@@ -173,22 +173,22 @@ function Material() {
 
                                 <div className=" col-6 form-box mt-2 pr-3 pl-3">
                                     <label for="exampleFormControlInput1">Aproval Obtaining Stage</label>
-                                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Aproval Obtaining Stage"></input>
+                                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Aproval Obtaining Stage" readOnly></input>
                                 </div>
 
                                 <div className=" col-6 form-box mt-2 pr-3 pl-3">
                                     <label for="exampleFormControlInput1">Institute Name </label>
-                                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Institute Name "></input>
+                                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Institute Name " readOnly></input>
                                 </div>
 
                                 <div className=" col-6 form-box mt-2 pr-3 pl-3">
                                     <label for="exampleFormControlInput1">Sample Required</label>
-                                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Aproval Obtaining Stage"></input>
+                                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Aproval Obtaining Stage" readOnly></input>
                                 </div>
 
                                 <div className=" col-6 form-box mt-2 pr-3 pl-3">
                                     <label for="exampleFormControlInput1">Release Time Days</label>
-                                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Aproval Obtaining Stage"></input>
+                                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Aproval Obtaining Stage" readOnly></input>
                                 </div>
 
                                     </div>
