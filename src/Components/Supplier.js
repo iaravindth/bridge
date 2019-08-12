@@ -143,6 +143,10 @@ function Material() {
                                     <label for="exampleFormControlInput1">Email</label>
                                     <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email" ></input>
                                 </div>
+                                <div className=" col-12 form-box">
+                                <button type="button" class="btn btn-primary-bridge-close float-right">Add another contact</button>
+                                </div>
+                               
                             </div>
                             
                         </div>
