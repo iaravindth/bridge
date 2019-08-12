@@ -30,7 +30,7 @@ function Material() {
                                 </div>
 
                                 <div className=" col-6 form-box mt-2">
-                                    <div class="form-group">
+                                    <div class="">
                                         <label for="exampleFormControlSelect1">Material Type</label>
                                         <select class="form-control" id="exampleFormControlSelect1">
                                             <option>1</option>
@@ -43,7 +43,7 @@ function Material() {
                                 </div>
 
                                 <div className=" col-6 form-box mt-2">
-                                    <div class="form-group">
+                                    <div class="">
                                         <label for="exampleFormControlSelect1">Material Origin</label>
                                         <select class="form-control" id="exampleFormControlSelect1">
                                             <option>1</option>
@@ -56,7 +56,7 @@ function Material() {
                                 </div>
 
                                 <div className=" col-6 form-box mt-2">
-                                    <div class="form-group">
+                                    <div class="">
                                         <label for="exampleFormControlSelect1">Unit of Mesurement </label>
                                         <select class="form-control" id="exampleFormControlSelect1">
                                             <option>Aproval Type</option>
@@ -69,7 +69,7 @@ function Material() {
                                 </div>
 
                                 <div className=" col-6 form-box mt-2">
-                                    <div class="form-group">
+                                    <div class="">
                                         <label for="exampleFormControlSelect1">Aproval Type</label>
                                         <select class="form-control" id="exampleFormControlSelect1">
                                             <option>1</option>
@@ -95,7 +95,7 @@ function Material() {
                                     </div>
                                 </div>
                                 <div className=" col-6 form-box mt-2">
-                                    <div class="form-group">
+                                    <div class="">
                                         <label for="exampleFormControlSelect1">Cargo Type </label>
                                         <select class="form-control" id="">
                                             <option>1</option>
@@ -112,13 +112,13 @@ function Material() {
                                     <hr></hr>
                                     <h5 className="pb-3">HS Code</h5>
                                     <div className="row">
-                                    <div className=" col-6">
+                                    <div className=" col-6 mt-2">
                                     <label for="exampleFormControlInput1">Supplier Name</label>
                                     <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Supplier Name"></input>
                                 </div>
 
-                                <div className=" col-6">
-                                    <div class="form-group">
+                                <div className=" col-6 pr-3 pl-3 mt-2">
+                                    <div class="">
                                         <label for="exampleFormControlSelect1">Client Name </label>
                                         <select class="form-control" id="">
                                             <option>1</option>
@@ -130,14 +130,14 @@ function Material() {
                                     </div>
                                 </div>
 
-                                        <div className=" col-6">
+                                        <div className="  col-6 form-box mt-2 pr-3 pl-3">
                                             <label for="exampleFormControlInput1">HS Code</label>
                                             <input type="email" class="form-control" id="" placeholder="HS Code" readOnly></input>
 
                                         </div>
 
-                                        <div className=" col-6">
-                                            <div class="form-group">
+                                        <div className="  col-6 form-box mt-2 pr-3 pl-3">
+                                            <div class="">
                                                 <label for="exampleFormControlSelect1">Priority</label>
                                                 <select class="form-control" id="">
                                                     <option>1</option>
@@ -153,16 +153,43 @@ function Material() {
                                     <hr></hr>
                                     <h5 className="pb-3">Regulatory Approval</h5>
                                     <div className="row">
-                                        <div className=" col-12">
-                                            <ul class="list-group list-group-flush">
-                                                <li class="list-group-item">Reference / Test <span className="float-right"> Master Data</span> </li>
-                                                <li class="list-group-item">Aproval Obtaining Stage <span className="float-right"> Master Data</span> </li>
-                                                <li class="list-group-item">Institute Name <span className="float-right"> Master Data</span></li>
-                                                <li class="list-group-item">Sample Required <span className="float-right"> Master Data</span></li>
-                                                <li class="list-group-item">Release Time Days <span className="float-right"> Master Data</span> </li>
-                                            </ul>
-                                        </div>
+                                     
 
+                                        
+
+                           
+                                <div className=" col-6 form-box mt-2 pr-3 pl-3">
+                                    <div class="">
+                                        <label for="exampleFormControlSelect1">Reference /Test</label>
+                                        <select class="form-control" id="exampleFormControlSelect1">
+                                            <option>1</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                            <option>4</option>
+                                            <option>5</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div className=" col-6 form-box mt-2 pr-3 pl-3">
+                                    <label for="exampleFormControlInput1">Aproval Obtaining Stage</label>
+                                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Aproval Obtaining Stage"></input>
+                                </div>
+
+                                <div className=" col-6 form-box mt-2 pr-3 pl-3">
+                                    <label for="exampleFormControlInput1">Institute Name </label>
+                                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Institute Name "></input>
+                                </div>
+
+                                <div className=" col-6 form-box mt-2 pr-3 pl-3">
+                                    <label for="exampleFormControlInput1">Sample Required</label>
+                                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Aproval Obtaining Stage"></input>
+                                </div>
+
+                                <div className=" col-6 form-box mt-2 pr-3 pl-3">
+                                    <label for="exampleFormControlInput1">Release Time Days</label>
+                                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Aproval Obtaining Stage"></input>
+                                </div>
 
                                     </div>
                                 </div>
@@ -172,7 +199,7 @@ function Material() {
                                     <h5 className="pb-3">Trade Agreements</h5>
                                     <div className="row">
                                     <div className=" col-6">
-                                            <div class="form-group">
+                                            <div class="">
                                                 <label for="exampleFormControlSelect1">Agreement Type</label>
                                                 <select class="form-control" id="">
                                                     <option>1</option>
@@ -182,7 +209,7 @@ function Material() {
                                             </div>
                                         </div>
                                         <div className=" col-6">
-                                            <div class="form-group">
+                                            <div class="">
                                                 <label for="exampleFormControlSelect1">Applicable tarrif</label>
                                                 <select class="form-control" id="">
                                                     <option>1</option>

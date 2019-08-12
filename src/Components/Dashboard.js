@@ -26,11 +26,12 @@ function Dashboard() {
               <Sidebar></Sidebar>
           </div>
         <div className="col-lg-10 content-area">
-          <HScode></HScode>
-        
+          
+        <Material></Material> 
         
        
           {/* 
+          <HScode></HScode>
           <LetterOfCredit></LetterOfCredit>
           <Advancepayment></Advancepayment>
            <Stakeholder></Stakeholder>
