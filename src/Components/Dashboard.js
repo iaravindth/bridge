@@ -27,7 +27,7 @@ function Dashboard() {
           </div>
         <div className="col-lg-10 content-area">
           
-        <Material></Material> 
+        <Supplier></Supplier> 
         
        
           {/* 
