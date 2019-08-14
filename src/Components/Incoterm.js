@@ -5,41 +5,32 @@ import React from 'react';
 function Incoterm() {
     return (
         <div className="row pl-5 pt-4">
-
-
-
             <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
                 <div class="modal-dialog modal-lg" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
                             <h5 class="modal-title" id="exampleModalLabel">Create Incoterm</h5>
-
                         </div>
                         <div class="modal-body">
-
                             <div className="row pr-3 pl-3">
                                 <div className="col-6 form-box mt-2">
                                     <label for=""> ID</label>
                                     <input type="email" class="form-control readonly " id="" placeholder="ID" readOnly ></input>
                                 </div>
-
                                 <div className="col-6 form-box mt-2">
                                     <label for=""> Incoterm</label>
                                     <input type="email" class="form-control readonly " id="" placeholder="Incoterm"  ></input>
                                 </div>
-
                                 <div className="col-6 form-box mt-2">
                                     <label for=""> Description</label>
                                     <input type="email" class="form-control readonly " id="" placeholder="Description"  ></input>
                                 </div>
-
                                 <div className=" col-6 form-box mt-2">
                                     <div class="">
                                         <label for="exampleFormControlSelect1">Status</label>
                                         <select class="form-control" id="exampleFormControlSelect1">
                                             <option>1</option>
                                             <option>2</option>
-
                                         </select>
                                     </div>
                                 </div>
@@ -47,7 +38,6 @@ function Incoterm() {
 
                         </div>
                         <div class="modal-footer">
-
                             <button type="button" class="btn btn-primary-bridge-close" data-dismiss="modal">Cancel</button>
                             <button type="button" class="btn btn-primary-bridge ">Save </button>
                         </div>
