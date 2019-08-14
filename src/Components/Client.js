@@ -20,38 +20,38 @@ function Client() {
                             <div className="row pr-3 pl-3">
 
                                 <div className="col-6 form-box mt-2">
-                                    <label for="exampleFormControlInput1">Client ID</label>
-                                    <input type="email" class="form-control readonly " id="" placeholder="Client ID" readOnly ></input>
+                                    <label for="">Client ID</label>
+                                    <input type="email" class="form-control  " id="" placeholder="Client ID" readOnly ></input>
                                 </div>
 
                                 <div className=" col-6 form-box mt-2">
-                                    <label for="exampleFormControlInput1">Client Name</label>
+                                    <label for="">Client Name</label>
                                     <input type="email" class="form-control" id="" placeholder="Client Name"></input>
                                 </div>
 
                                 <div className=" col-6 form-box mt-2">
-                                    <label for="exampleFormControlInput1">Client Address</label>
+                                    <label for="">Client Address</label>
                                     <input type="email" class="form-control" id="" placeholder="Client Address"></input>
                                 </div>
 
                                 <div className=" col-6 form-box mt-2">
-                                    <label for="exampleFormControlInput1">Client Contact Details</label>
+                                    <label for="">Client Contact Details</label>
                                     <input type="email" class="form-control" id="" placeholder="Client Contact Details"></input>
                                 </div>
                                 <div className=" col-6 form-box mt-2">
-                                    <label for="exampleFormControlInput1">VAT</label>
+                                    <label for="">VAT</label>
                                     <input type="email" class="form-control" id="" placeholder="VAT"></input>
                                 </div>
                                 <div className=" col-6 form-box mt-2">
-                                    <label for="exampleFormControlInput1">TIN</label>
+                                    <label for="">TIN</label>
                                     <input type="email" class="form-control" id="" placeholder="TIN"></input>
                                 </div>
                                 <div className=" col-6 form-box mt-2">
-                                    <label for="exampleFormControlInput1">Business Registration Number</label>
+                                    <label for="">Business Registration Number</label>
                                     <input type="email" class="form-control" id="" placeholder="Business Registration Number"></input>
                                 </div>
                                 <div className=" col-6 form-box mt-2">
-                                    <label for="exampleFormControlInput1">Contact Number</label>
+                                    <label for="">Contact Number</label>
                                     <input type="email" class="form-control" id="" placeholder="Contact Number"></input>
                                 </div>
                                 <div className=" col-6 form-box mt-2">
@@ -75,23 +75,23 @@ function Client() {
                             <h5 className="pb-3">Attachment</h5>
                             <div className="row pr-3 pl-3">
                                 <div className=" col-6 form-box mt-2">
-                                    <label for="exampleFormControlInput1">Description</label>
-                                    <input type="email" class="form-control" id="exampleormControlInput1" placeholder="Description"  ></input>
+                                    <label for="">Description</label>
+                                    <input type="email" class="form-control" id="" placeholder="Description"></input>
                                 </div>
                                 <div className=" col-6 form-box mt-2">
-                                    <label for="exampleFormControlInput1">Type</label>
+                                    <label for="">Type</label>
                                     <input type="email" class="form-control" id="" placeholder="Type"  ></input>
                                 </div>
                                 <div className=" col-6 form-box mt-2">
 
-                                    <label for="exampleFormControlInput1">Attachment</label>
+                                    <label for="">Attachment</label>
                                     <div class="custom-file">
-                                    <input type="file" class="custom-file-input" id="customFile"></input>
-                                    <label class="custom-file-label" for="customFile">Choose file</label>
+                                        <input type="file" class="custom-file-input" id="customFile"></input>
+                                        <label class="custom-file-label" for="customFile">Choose file</label>
                                     </div>
                                 </div>
                                 <div className=" col-6 form-box mt-2">
-                                    <label for="exampleFormControlInput1">Remarks</label>
+                                    <label for="">Remarks</label>
                                     <input type="email" class="form-control" id="" placeholder="Remarks"  ></input>
                                 </div>
                             </div>
@@ -100,24 +100,24 @@ function Client() {
                             <div className="row pr-3 pl-3">
 
                                 <div className=" col-6 form-box mt-2">
-                                    <label for="exampleFormControlInput1">Contact Name</label>
+                                    <label for="">Contact Name</label>
                                     <input type="email" class="form-control" id="" placeholder="Contact Name"  ></input>
                                 </div>
                                 <div className=" col-6 form-box mt-2">
-                                    <label for="exampleFormControlInput1">Designation</label>
+                                    <label for="">Designation</label>
                                     <input type="email" class="form-control" id="" placeholder="Designation" ></input>
                                 </div>
                                 <div className=" col-6 form-box mt-2">
-                                    <label for="exampleFormControlInput1">Contact Number</label>
+                                    <label for="">Contact Number</label>
                                     <input type="email" class="form-control" id="" placeholder="Contact Number" ></input>
                                 </div>
                                 <div className=" col-6 form-box mt-2">
-                                    <label for="exampleFormControlInput1">Email</label>
+                                    <label for="">Email</label>
                                     <input type="email" class="form-control" id="" placeholder="Email" ></input>
                                 </div>
                                 <div className=" col-6 form-box mt-2">
-                                    <label for="exampleFormControlInput1">Other</label>
-                                    <input type="email" class="form-control" id="" placeholder="Other" ></input>
+                                    <label for="">Other Contact Details</label>
+                                    <input type="email" class="form-control" id="" placeholder="Other Contact Details" ></input>
                                 </div>
                             </div>
 
@@ -126,23 +126,23 @@ function Client() {
                             <div className="row pr-3 pl-3">
 
                                 <div className=" col-6 form-box mt-2">
-                                    <label for="exampleFormControlInput1">Entity Name</label>
+                                    <label for="">Entity Name</label>
                                     <input type="email" class="form-control" id="" placeholder="Entity Name"  ></input>
                                 </div>
                                 <div className=" col-6 form-box mt-2">
-                                    <label for="exampleFormControlInput1">Address</label>
+                                    <label for="">Address</label>
                                     <input type="email" class="form-control" id="" placeholder="Address" ></input>
                                 </div>
                                 <div className=" col-6 form-box mt-2">
-                                    <label for="exampleFormControlInput1">Tax Identification Number</label>
+                                    <label for="">Tax Identification Number</label>
                                     <input type="email" class="form-control" id="" placeholder="Tax Identification Number" ></input>
                                 </div>
                                 <div className=" col-6 form-box mt-2">
-                                    <label for="exampleFormControlInput1">VAT Number</label>
+                                    <label for="">VAT Number</label>
                                     <input type="email" class="form-control" id="" placeholder="VAT Number" ></input>
                                 </div>
                                 <div className=" col-6 form-box mt-2">
-                                    <label for="exampleFormControlInput1">Business Registration Number</label>
+                                    <label for="">Business Registration Number</label>
                                     <input type="email" class="form-control" id="" placeholder="Business Registration Number" ></input>
                                 </div>
                                 <div className=" col-6 form-box mt-2">
@@ -160,8 +160,8 @@ function Client() {
                             <hr></hr>
                             <h5 className="pb-3">Type of export</h5>
                             <div className="row pr-3 pl-3">
-                            <div className=" col-6 form-box mt-2">
-                                    <label for="exampleFormControlInput1">Type of export</label>
+                                <div className=" col-6 form-box mt-2">
+                                    <label for="">Type of export</label>
                                     <input type="email" class="form-control" id="" placeholder="Type of export" ></input>
                                 </div>
                             </div>
@@ -169,8 +169,8 @@ function Client() {
                             <hr></hr>
                             <h5 className="pb-3">Export Category</h5>
                             <div className="row pr-3 pl-3">
-                            <div className=" col-6 form-box mt-2">
-                                    <label for="exampleFormControlInput1">Export Category</label>
+                                <div className=" col-6 form-box mt-2">
+                                    <label for="">Export Category</label>
                                     <input type="email" class="form-control" id="" placeholder="Export Category" ></input>
                                 </div>
                             </div>
@@ -189,7 +189,7 @@ function Client() {
                 <div className="">
                     <div className="col-12 form-box mt-2 mb-4">
                         <div className="float-right">
-                            <button type="button" class="btn btn-line-primary-bridge " data-toggle="modal" data-target=".bd-example-modal-lg" >Add</button>
+                            <button type="button" class="btn btn-line-primary-bridge " data-toggle="modal" data-target=".bd-example-modal-lg" >Add Client</button>
                         </div>
                     </div>
                     <table class="table table-hover">
