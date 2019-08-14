@@ -29,7 +29,7 @@ function HScode() {
                             <hr></hr>
                             <h5 className="pb-3">Preferencial Duty</h5>
                             <div className="row pr-3 pl-3">
-                            <div className=" col-6 form-box mt-2">
+                                <div className=" col-6 form-box mt-2">
                                     <div class="">
                                         <label for="">Country</label>
                                         <select class="form-control" id="">
@@ -87,7 +87,7 @@ function HScode() {
                                     </div>
                                 </div>
                             </div>
-                           
+
 
                         </div>
                         <div class="modal-footer">
