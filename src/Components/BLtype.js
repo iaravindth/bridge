@@ -5,9 +5,6 @@ import React from 'react';
 function BLtype() {
     return (
         <div className="row pl-5 pt-4">
-            
-
-
             <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
                 <div class="modal-dialog modal-lg" role="document">
                     <div class="modal-content">
@@ -20,12 +17,12 @@ function BLtype() {
                             <div className="row pr-3 pl-3">
                             <div className="col-6 form-box mt-2">
                                     <label for="exampleFormControlInput1"> ID</label>
-                                    <input type="email" class="form-control readonly " id="exampleFormControlInput1" placeholder="Supplier ID" readOnly ></input>
+                                    <input type="text" class="form-control readonly " id="exampleFormControlInput1" placeholder="Supplier ID" readOnly ></input>
                                 </div>
 
                                 <div className="col-6 form-box mt-2">
                                     <label for="exampleFormControlInput1"> B/L Type</label>
-                                    <input type="email" class="form-control readonly " id="exampleFormControlInput1" placeholder="B/L Type"  ></input>
+                                    <input type="text" class="form-control readonly " id="exampleFormControlInput1" placeholder="B/L Type"  ></input>
                                 </div>
 
                                 <div className=" col-6 form-box mt-2">
@@ -42,14 +39,14 @@ function BLtype() {
                                 </div>
 
                                 <div className="col-6 form-box mt-2">
-                                    <label for="exampleFormControlInput1"> Description</label>
-                                    <input type="email" class="form-control readonly " id="exampleFormControlInput1" placeholder="Description"  ></input>
+                                    <label for=""> Description</label>
+                                    <input type="text" class="form-control readonly " id="" placeholder="Description"  ></input>
                                 </div>
 
                                 <div className=" col-6 form-box mt-2">
                                     <div class="">
-                                        <label for="exampleFormControlSelect1">Status</label>
-                                        <select class="form-control" id="exampleFormControlSelect1">
+                                        <label for="">Status</label>
+                                        <select class="form-control" id="">
                                             <option>1</option>
                                             <option>2</option>
                                             <option>3</option>
@@ -62,7 +59,6 @@ function BLtype() {
 
                         </div>
                         <div class="modal-footer">
-
                             <button type="button" class="btn btn-primary-bridge-close" data-dismiss="modal">Cancel</button>
                             <button type="button" class="btn btn-primary-bridge ">Save </button>
                         </div>
