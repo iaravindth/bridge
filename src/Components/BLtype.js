@@ -17,7 +17,7 @@ function BLtype() {
                             <div className="row pr-3 pl-3">
                             <div className="col-6 form-box mt-2">
                                     <label for="exampleFormControlInput1"> ID</label>
-                                    <input type="text" class="form-control readonly " id="exampleFormControlInput1" placeholder="Supplier ID" readOnly ></input>
+                                    <input type="text" class="form-control readonly " id="exampleFormControlInput1" placeholder=" ID" readOnly ></input>
                                 </div>
 
                                 <div className="col-6 form-box mt-2">
