@@ -5,43 +5,34 @@ import React from 'react';
 function HScode() {
     return (
         <div className="row pl-5 pt-4">
-
-
-
             <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
                 <div class="modal-dialog modal-lg" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
                             <h5 class="modal-title" id="exampleModalLabel">Create HScode</h5>
-
                         </div>
                         <div class="modal-body">
-
                             <div className="row pr-3 pl-3">
                                 <div className="col-6 form-box mt-2">
-                                    <label for="exampleFormControlInput1"> HS Code</label>
-                                    <input type="text" class="form-control readonly " id="exampleFormControlInput1" placeholder="HS Code"  ></input>
+                                    <label for=""> HS Code</label>
+                                    <input type="text" class="form-control readonly " id="" placeholder="HS Code"  ></input>
                                 </div>
-
                                 <div className="col-6 form-box mt-2">
-                                    <label for="exampleFormControlInput1"> Description</label>
-                                    <input type="text" class="form-control readonly " id="exampleFormControlInput1" placeholder="Description"  ></input>
+                                    <label for=""> Description</label>
+                                    <input type="text" class="form-control readonly " id="" placeholder="Description"  ></input>
                                 </div>
-
                                 <div className="col-6 form-box mt-2">
-                                    <label for="exampleFormControlInput1"> Unit</label>
-                                    <input type="text" class="form-control readonly " id="exampleFormControlInput1" placeholder="Unit"  ></input>
+                                    <label for=""> Unit</label>
+                                    <input type="text" class="form-control readonly " id="" placeholder="Unit"  ></input>
                                 </div>
-                             
-
                             </div>
                             <hr></hr>
                             <h5 className="pb-3">Preferencial Duty</h5>
                             <div className="row pr-3 pl-3">
                             <div className=" col-6 form-box mt-2">
                                     <div class="">
-                                        <label for="exampleFormControlSelect1">Country</label>
-                                        <select class="form-control" id="exampleFormControlSelect1">
+                                        <label for="">Country</label>
+                                        <select class="form-control" id="">
                                             <option>1</option>
                                             <option>2</option>
                                             <option>3</option>
@@ -51,37 +42,49 @@ function HScode() {
                                     </div>
                                 </div>
                                 <div className="col-6 form-box mt-2">
-                                    <label for="exampleFormControlInput1"> Duty</label>
-                                    <input type="text" class="form-control readonly " id="exampleFormControlInput1" placeholder="Duty"  ></input>
+                                    <label for=""> Duty</label>
+                                    <input type="text" class="form-control readonly " id="" placeholder="Duty"  ></input>
                                 </div>
 
                                 <div className="col-6 form-box mt-2">
-                                    <label for="exampleFormControlInput1"> Gen Duty</label>
-                                    <input type="text" class="form-control readonly " id="exampleFormControlInput1" placeholder="Gen Duty"  ></input>
+                                    <label for=""> Gen Duty</label>
+                                    <input type="text" class="form-control readonly " id="" placeholder="Gen Duty"  ></input>
                                 </div>
                                 <div className="col-6 form-box mt-2">
-                                    <label for="exampleFormControlInput1"> VAT</label>
-                                    <input type="text" class="form-control readonly " id="exampleFormControlInput1" placeholder="VAT"  ></input>
+                                    <label for=""> VAT</label>
+                                    <input type="text" class="form-control readonly " id="" placeholder="VAT"  ></input>
                                 </div>
                                 <div className="col-6 form-box mt-2">
-                                    <label for="exampleFormControlInput1"> PAL</label>
-                                    <input type="text" class="form-control readonly " id="exampleFormControlInput1" placeholder="PAL"  ></input>
+                                    <label for=""> PAL</label>
+                                    <input type="text" class="form-control readonly " id="" placeholder="PAL"  ></input>
                                 </div>
                                 <div className="col-6 form-box mt-2">
-                                    <label for="exampleFormControlInput1"> NBT</label>
-                                    <input type="text" class="form-control readonly " id="exampleFormControlInput1" placeholder="NBT"  ></input>
+                                    <label for=""> NBT</label>
+                                    <input type="text" class="form-control readonly " id="" placeholder="NBT"  ></input>
                                 </div>
                                 <div className="col-6 form-box mt-2">
-                                    <label for="exampleFormControlInput1"> Cess</label>
-                                    <input type="text" class="form-control readonly " id="exampleFormControlInput1" placeholder="Cess"  ></input>
+                                    <label for=""> Cess</label>
+                                    <input type="text" class="form-control readonly " id="" placeholder="Cess"  ></input>
                                 </div>
                                 <div className="col-6 form-box mt-2">
-                                    <label for="exampleFormControlInput1"> Excise</label>
-                                    <input type="text" class="form-control readonly " id="exampleFormControlInput1" placeholder="Excise"  ></input>
+                                    <label for=""> Excise</label>
+                                    <input type="text" class="form-control readonly " id="" placeholder="Excise"  ></input>
                                 </div>
                                 <div className="col-6 form-box mt-2">
-                                    <label for="exampleFormControlInput1"> SCL</label>
-                                    <input type="text" class="form-control readonly " id="exampleFormControlInput1" placeholder="SCL"  ></input>
+                                    <label for=""> SCL</label>
+                                    <input type="text" class="form-control readonly " id="" placeholder="SCL"  ></input>
+                                </div>
+                                <div className=" col-6 form-box mt-2">
+                                    <div class="">
+                                        <label for="">Type</label>
+                                        <select class="form-control" id="">
+                                            <option>1</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                            <option>4</option>
+                                            <option>5</option>
+                                        </select>
+                                    </div>
                                 </div>
                             </div>
                            
