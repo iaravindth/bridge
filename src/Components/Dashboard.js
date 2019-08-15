@@ -1,4 +1,5 @@
 import React from 'react';
+import { BrowserRouter as Router, Redirect, Route, Switch } from "react-router-dom";
 import '../Components/Dashboard.css';
 import Header from './Header';
 import Material from './Material';
@@ -26,8 +27,45 @@ function Dashboard() {
               <Sidebar></Sidebar>
           </div>
         <div className="col-lg-10 content-area">
-          
-        <Supplier></Supplier> 
+          <Router basename="/bridge">
+            <Switch>
+              <Route
+                path="/admin/manage/add-client"
+                component={Client}
+              />
+              <Route
+                path="/admin/manage/add-supplier"
+                component={Supplier}
+              />
+              <Route
+                path="/admin/manage/add-hscode"
+                component={HScode} />
+              <Route
+                path="/admin/manage/add-incoterm"
+                component={Incoterm} />
+              <Route
+                path="/admin/manage/add-regulatory"
+                component={Regulatory} />
+              <Route
+                path="/admin/manage/add-stakeholder"
+                component={Stakeholder} />
+              <Route
+                path="/admin/manage/add-bltypes"
+                component={BLtype} />
+              <Route
+                path="/admin/manage/add-payment"
+                component={Payments} />
+              <Route
+                path="/admin/manage/add-advancepayment"
+                component= {Advancepayment} />
+              <Route
+                path="/admin/manage/add-loc"
+                component={LetterOfCredit} />
+              <Route
+                path="/admin/manage/add-material"
+                component={Material} />
+            </Switch>
+          </Router>
         
        
           {/* 
