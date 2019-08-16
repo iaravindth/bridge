@@ -13,6 +13,7 @@ import Stakeholder from './Stakeholder';
 import Advancepayment from './Advancepayment';
 import LetterOfCredit from '../LetterOfCredit ';
 import HScode from './HSCode';
+import Login from './Login';
 
 
 function Dashboard() {
@@ -20,6 +21,7 @@ function Dashboard() {
     <div className="container-fluid p-0 login">
       <div className="row  ">
           <div className="col-lg-12"> 
+          {/* <Login></Login> */}
               <Header></Header>
           </div>
           <div className="col-lg-2 pr-0">
@@ -27,7 +29,7 @@ function Dashboard() {
           </div>
         <div className="col-lg-10 content-area">
           
-        <Supplier></Supplier> 
+        <HScode></HScode>
         
        
           {/* 

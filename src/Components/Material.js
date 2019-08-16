@@ -5,30 +5,22 @@ import '../Components/Material.css';
 function Material() {
     return (
         <div className="row pl-5 pt-4">
-            
-
-
             <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
                 <div class="modal-dialog modal-lg" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
                             <h5 class="modal-title" id="exampleModalLabel">Create Material</h5>
-
                         </div>
                         <div class="modal-body">
-
                             <div className="row pr-3 pl-3">
-
                                 <div className="col-6 form-box mt-2">
-                                    <label for="exampleFormControlInput1">Material ID</label>
-                                    <input type="email" class="form-control readonly " id="exampleFormControlInput1" placeholder="Material ID" readOnly ></input>
+                                    <label for="">Material ID</label>
+                                    <input type="email" class="form-control readonly " id="" placeholder="Material ID" readOnly ></input>
                                 </div>
-
                                 <div className=" col-6 form-box mt-2">
-                                    <label for="exampleFormControlInput1">Material Name</label>
-                                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Material Name"></input>
+                                    <label for="">Material Name</label>
+                                    <input type="email" class="form-control" id="" placeholder="Material Name"></input>
                                 </div>
-
                                 <div className=" col-6 form-box mt-2">
                                     <div class="">
                                         <label for="exampleFormControlSelect1">Material Type</label>
@@ -113,8 +105,8 @@ function Material() {
                                     <h5 className="pb-3">HS Code</h5>
                                     <div className="row">
                                     <div className=" col-6 mt-2">
-                                    <label for="exampleFormControlInput1">Supplier Name</label>
-                                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Supplier Name"></input>
+                                    <label for="">Supplier Name</label>
+                                    <input type="email" class="form-control" id="" placeholder="Supplier Name"></input>
                                 </div>
 
                                 <div className=" col-6 pr-3 pl-3 mt-2">
@@ -131,7 +123,7 @@ function Material() {
                                 </div>
 
                                         <div className="  col-6 form-box mt-2 pr-3 pl-3">
-                                            <label for="exampleFormControlInput1">HS Code</label>
+                                            <label for="">HS Code</label>
                                             <input type="email" class="form-control" id="" placeholder="HS Code" readOnly></input>
 
                                         </div>
@@ -172,23 +164,23 @@ function Material() {
                                 </div>
 
                                 <div className=" col-6 form-box mt-2 pr-3 pl-3">
-                                    <label for="exampleFormControlInput1">Aproval Obtaining Stage</label>
-                                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Aproval Obtaining Stage" readOnly></input>
+                                    <label for="">Aproval Obtaining Stage</label>
+                                    <input type="email" class="form-control" id="" placeholder="Aproval Obtaining Stage" readOnly></input>
                                 </div>
 
                                 <div className=" col-6 form-box mt-2 pr-3 pl-3">
-                                    <label for="exampleFormControlInput1">Institute Name </label>
-                                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Institute Name " readOnly></input>
+                                    <label for="">Institute Name </label>
+                                    <input type="email" class="form-control" id="" placeholder="Institute Name " readOnly></input>
                                 </div>
 
                                 <div className=" col-6 form-box mt-2 pr-3 pl-3">
-                                    <label for="exampleFormControlInput1">Sample Required</label>
-                                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Aproval Obtaining Stage" readOnly></input>
+                                    <label for="">Sample Required</label>
+                                    <input type="email" class="form-control" id="" placeholder="Aproval Obtaining Stage" readOnly></input>
                                 </div>
 
                                 <div className=" col-6 form-box mt-2 pr-3 pl-3">
-                                    <label for="exampleFormControlInput1">Release Time Days</label>
-                                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Aproval Obtaining Stage" readOnly></input>
+                                    <label for="">Release Time Days</label>
+                                    <input type="email" class="form-control" id="" placeholder="Aproval Obtaining Stage" readOnly></input>
                                 </div>
 
                                     </div>
