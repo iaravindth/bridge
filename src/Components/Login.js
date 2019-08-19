@@ -12,13 +12,18 @@ function Login() {
         <img src={bridge} className="mx-auto d-block mb-5" ></img>
 
         <div className="form-group">
+          <label >Company Name</label>
+          <input type="text" className="form-control" id="exampleFormControlInput1" placeholder="Enter Company Name"></input>
+           </div>
+
+        <div className="form-group">
           <label >User Name</label>
-          <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="Enter your ID"></input>
+          <input type="text" className="form-control" id="exampleFormControlInput1" placeholder="Enter your ID"></input>
         </div>
 
         <div className="form-group">
           <label >Password</label>
-          <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="Enter your ID"></input>
+          <input type="password" className="form-control" id="exampleFormControlInput1" placeholder="Enter your ID"></input>
 
         </div>
         <button type="button" class="btn btn-primary-bridge btn-block mt-5" href="./Dashboard" >Sign In</button>
