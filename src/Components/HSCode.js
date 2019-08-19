@@ -17,6 +17,7 @@ function HScode() {
                                     <label for=""> HS Code</label>
                                     <input type="text" class="form-control readonly " id="" placeholder="HS Code"  ></input>
                                 </div>
+                                
                                 <div className="col-6 form-box mt-2">
                                     <label for=""> Description</label>
                                     <input type="text" class="form-control readonly " id="" placeholder="Description"  ></input>
@@ -45,7 +46,7 @@ function HScode() {
                                     <label for=""> Duty</label>
                                     <input type="text" class="form-control readonly " id="" placeholder="Duty"  ></input>
                                 </div>
-
+                                <div class=" col-12 form-box"><button type="button" class="btn btn-primary-bridge-close float-right">Add another contry</button></div>
                                 <div className="col-6 form-box mt-2">
                                     <label for=""> Gen Duty</label>
                                     <input type="text" class="form-control readonly " id="" placeholder="Gen Duty"  ></input>
