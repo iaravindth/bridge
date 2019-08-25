@@ -12,7 +12,7 @@ function Payments() {
                 <div class="modal-dialog modal-lg" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalLabel">Create Payments</h5>
+                            <h5 class="modal-title" id="exampleModalLabel">Create Payment Term</h5>
 
                         </div>
                         <div class="modal-body">
@@ -106,7 +106,7 @@ function Payments() {
                 <div className="">
                 <div className="col-12 form-box mt-2 mb-4">
                 <div className="float-right">
-                    <button type="button" class="btn btn-line-primary-bridge " data-toggle="modal" data-target=".bd-example-modal-lg" >Add  Payment</button>
+                    <button type="button" class="btn btn-line-primary-bridge " data-toggle="modal" data-target=".bd-example-modal-lg" >Add Payment Term</button>
                 </div>
             </div>
                 <table class="table table-hover">

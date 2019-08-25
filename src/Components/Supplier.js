@@ -82,9 +82,9 @@ function Material() {
                                     <label for="exampleFormControlInput1">Link to supplier's catalouges</label>
                                     <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Link to supplier's catalouges"></input>
                                 </div>
-                                <div className=" col-6 form-box mt-2">
+                                <div className=" col-12 form-box mt-2">
                                     <label for="exampleFormControlInput1">General Shipping Instructions</label>
-                                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="General Shipping Instructions"></input>
+                                    <textarea type="email" class="form-control" id="exampleFormControlInput1" placeholder="General Shipping Instructions"></textarea>
                                 </div>
                                 
                             </div>
@@ -116,8 +116,14 @@ function Material() {
                                 </div>
                                 <div className=" col-6 form-box mt-2">
                                     <label for="exampleFormControlInput1">Defualt transport mode</label>
-                                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Defualt transport mode" readOnly></input>
-                                </div>
+                                    <select class="form-control" id="exampleFormControlSelect1">
+                                            <option>1</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                            <option>4</option>
+                                            <option>5</option>
+                                        </select>
+                                        </div>
                             </div>
 
                             <hr></hr>

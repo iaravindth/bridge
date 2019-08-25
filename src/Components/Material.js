@@ -23,8 +23,8 @@ function Material() {
                                 </div>
                                 <div className=" col-6 form-box mt-2">
                                     <div class="">
-                                        <label for="exampleFormControlSelect1">Material Type</label>
-                                        <select class="form-control" id="exampleFormControlSelect1">
+                                        <label for="">Material Type</label>
+                                        <select class="form-control" id="">
                                             <option>1</option>
                                             <option>2</option>
                                             <option>3</option>
@@ -36,8 +36,8 @@ function Material() {
 
                                 <div className=" col-6 form-box mt-2">
                                     <div class="">
-                                        <label for="exampleFormControlSelect1">Material Origin</label>
-                                        <select class="form-control" id="exampleFormControlSelect1">
+                                        <label for="">Material Origin</label>
+                                        <select class="form-control" id="">
                                             <option>1</option>
                                             <option>2</option>
                                             <option>3</option>
@@ -49,8 +49,8 @@ function Material() {
 
                                 <div className=" col-6 form-box mt-2">
                                     <div class="">
-                                        <label for="exampleFormControlSelect1">Unit of Mesurement </label>
-                                        <select class="form-control" id="exampleFormControlSelect1">
+                                        <label for="">Unit of Mesurement </label>
+                                        <select class="form-control" id="">
                                             <option>Aproval Type</option>
                                             <option>2</option>
                                             <option>3</option>
@@ -62,8 +62,8 @@ function Material() {
 
                                 <div className=" col-6 form-box mt-2">
                                     <div class="">
-                                        <label for="exampleFormControlSelect1">Aproval Type</label>
-                                        <select class="form-control" id="exampleFormControlSelect1">
+                                        <label for="">Aproval Type</label>
+                                        <select class="form-control" id="">
                                             <option>1</option>
                                             <option>2</option>
                                             <option>3</option>
@@ -74,21 +74,19 @@ function Material() {
                                 </div>
 
                                 <div className=" col-6 form-box mt-2">
-                                    <label for="exampleFormControlSelect1">Is BOI </label>
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked></input>
-                                        <label class="form-check-label" for="exampleRadios1">
-                                            yes</label>
-                                    </div>
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2"></input>
-                                        <label class="form-check-label" for="exampleRadios2">
-                                            No</label>
-                                    </div>
+                                    <label for="">Is BOI </label>
+                                    
+                                    <select class="form-control" id="">
+                                            <option>1</option>
+                                            <option>2</option>
+                                            <option>3</option>
+                                            <option>4</option>
+                                            <option>5</option>
+                                        </select>
                                 </div>
                                 <div className=" col-6 form-box mt-2">
                                     <div class="">
-                                        <label for="exampleFormControlSelect1">Cargo Type </label>
+                                        <label for="">Cargo Type </label>
                                         <select class="form-control" id="">
                                             <option>1</option>
                                             <option>2</option>
@@ -111,7 +109,7 @@ function Material() {
 
                                 <div className=" col-6 pr-3 pl-3 mt-2">
                                     <div class="">
-                                        <label for="exampleFormControlSelect1">Client Name </label>
+                                        <label for="">Client Name </label>
                                         <select class="form-control" id="">
                                             <option>1</option>
                                             <option>2</option>
@@ -130,7 +128,7 @@ function Material() {
 
                                         <div className="  col-6 form-box mt-2 pr-3 pl-3">
                                             <div class="">
-                                                <label for="exampleFormControlSelect1">Priority</label>
+                                                <label for="">Priority</label>
                                                 <select class="form-control" id="">
                                                     <option>1</option>
                                                     <option>2</option>
@@ -152,8 +150,8 @@ function Material() {
                            
                                 <div className=" col-6 form-box mt-2 pr-3 pl-3">
                                     <div class="">
-                                        <label for="exampleFormControlSelect1">Reference /Test</label>
-                                        <select class="form-control" id="exampleFormControlSelect1">
+                                        <label for="">Reference /Test</label>
+                                        <select class="form-control" id="">
                                             <option>1</option>
                                             <option>2</option>
                                             <option>3</option>
@@ -192,7 +190,7 @@ function Material() {
                                     <div className="row">
                                     <div className=" col-6">
                                             <div class="">
-                                                <label for="exampleFormControlSelect1">Agreement Type</label>
+                                                <label for="">Agreement Type</label>
                                                 <select class="form-control" id="">
                                                     <option>1</option>
                                                     <option>2</option>
@@ -202,7 +200,7 @@ function Material() {
                                         </div>
                                         <div className=" col-6">
                                             <div class="">
-                                                <label for="exampleFormControlSelect1">Applicable tarrif</label>
+                                                <label for="">Applicable tarrif</label>
                                                 <select class="form-control" id="">
                                                     <option>1</option>
                                                     <option>2</option>

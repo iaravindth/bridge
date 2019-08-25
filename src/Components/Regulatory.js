@@ -12,8 +12,7 @@ function Regulatory() {
                 <div class="modal-dialog modal-lg" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalLabel">Create Regulatory</h5>
-
+                            <h5 class="modal-title" id="exampleModalLabel">Create Regulatory Approval</h5>
                         </div>
                         <div class="modal-body">
 
@@ -47,7 +46,7 @@ function Regulatory() {
                                 </div>
                                 <div className=" col-6 form-box mt-2">
                                     <label for="exampleFormControlInput1">Average Release Time</label>
-                                    <input type="email" class="form-control" id="" placeholder="VAT"></input>
+                                    <input type="email" class="form-control" id="" placeholder="Average Release Time"></input>
                                 </div>
                                 <div className=" col-6 form-box mt-2">
                                     <div class="">
@@ -67,7 +66,7 @@ function Regulatory() {
 
                             <hr>
                             </hr>
-                            <h5 className="pb-3">Attachment</h5>
+                            <h5 className="pb-3">Attachments</h5>
                             <div className="row pr-3 pl-3">
                                 <div className=" col-6 form-box mt-2">
                                     <label for="exampleFormControlInput1">Document Name</label>
@@ -75,12 +74,12 @@ function Regulatory() {
                                 </div>
                                 <div className=" col-6 form-box mt-2">
                                     <label for="exampleFormControlInput1">Description</label>
-                                    <input type="email" class="form-control" id="" placeholder="Type"  ></input>
+                                    <input type="email" class="form-control" id="" placeholder="Description"  ></input>
                                 </div>
        
                                 <div className=" col-6 form-box mt-2">
                                     <div class="">
-                                        <label for="exampleFormControlSelect1">Mandotory</label>
+                                        <label for="exampleFormControlSelect1">Mandatory</label>
                                         <select class="form-control" id="">
                                             <option>1</option>
                                             <option>2</option>
@@ -106,7 +105,7 @@ function Regulatory() {
                 <div className="">
                     <div className="col-12 form-box mt-2 mb-4">
                         <div className="float-right">
-                            <button type="button" class="btn btn-line-primary-bridge " data-toggle="modal" data-target=".bd-example-modal-lg" >Add</button>
+                            <button type="button" class="btn btn-line-primary-bridge " data-toggle="modal" data-target=".bd-example-modal-lg" >Add Regulatory Approval</button>
                         </div>
                     </div>
                     <table class="table table-hover">

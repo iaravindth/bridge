@@ -19,13 +19,13 @@ function Stakeholder() {
 
                             <div className="row pr-3 pl-3">
                                 <div className="col-6 form-box mt-2">
-                                    <label for="exampleFormControlInput1"> Vendor Name</label>
-                                    <input type="text" class="form-control readonly " id="exampleFormControlInput1" placeholder="Vendor Name"  ></input>
+                                    <label for=""> Stakeholder Name</label>
+                                    <input type="text" class="form-control readonly " id="" placeholder="Stakeholder Name"  ></input>
                                 </div>
 
                                 <div className=" col-6 form-box mt-2">
                                     <div class="">
-                                        <label for="exampleFormControlSelect1">Type Vendor</label>
+                                        <label for="exampleFormControlSelect1">Stakeholder Type</label>
                                         <select class="form-control" id="exampleFormControlSelect1">
                                             <option>1</option>
                                             <option>2</option>
@@ -37,29 +37,29 @@ function Stakeholder() {
                                 </div>
 
                                 <div className="col-6 form-box mt-2">
-                                    <label for="exampleFormControlInput1"> Address</label>
-                                    <input type="email" class="form-control readonly " id="exampleFormControlInput1" placeholder="Address"  ></input>
+                                    <label for=""> Address</label>
+                                    <input type="email" class="form-control readonly " id="" placeholder="Address"  ></input>
                                 </div>
 
                                 <div className="col-6 form-box mt-2">
-                                    <label for="exampleFormControlInput1"> Client Names</label>
-                                    <input type="email" class="form-control readonly " id="exampleFormControlInput1" placeholder="Description"  ></input>
+                                    <label for=""> Client Names</label>
+                                    <input type="email" class="form-control readonly " id="" placeholder="Client Names"  ></input>
                                 </div>
                                 <div className="col-6 form-box mt-2">
-                                    <label for="exampleFormControlInput1"> Business Registration</label>
-                                    <input type="email" class="form-control readonly " id="exampleFormControlInput1" placeholder="Business Registration"  ></input>
+                                    <label for=""> Business Registration</label>
+                                    <input type="email" class="form-control readonly " id="" placeholder="Business Registration"  ></input>
                                 </div>
                                 <div className="col-6 form-box mt-2">
-                                    <label for="exampleFormControlInput1"> TIN</label>
-                                    <input type="email" class="form-control readonly " id="exampleFormControlInput1" placeholder="TIN"  ></input>
+                                    <label for=""> TIN</label>
+                                    <input type="email" class="form-control readonly " id="" placeholder="TIN"  ></input>
                                 </div>
                                 <div className="col-6 form-box mt-2">
-                                    <label for="exampleFormControlInput1"> Swift Adress</label>
-                                    <input type="email" class="form-control readonly " id="exampleFormControlInput1" placeholder="Description"  ></input>
+                                    <label for=""> Swift Address (Only for Banks)</label>
+                                    <input type="email" class="form-control readonly " id="" placeholder="Swift Address"  ></input>
                                 </div>
                                 <div className="col-6 form-box mt-2">
-                                    <label for="exampleFormControlInput1"> Payment Due</label>
-                                    <input type="email" class="form-control readonly " id="exampleFormControlInput1" placeholder="Description"  ></input>
+                                    <label for=""> Payment Due</label>
+                                    <input type="email" class="form-control readonly " id="" placeholder="Payment Due"  ></input>
                                 </div>
 
                             </div>
@@ -67,28 +67,28 @@ function Stakeholder() {
                             <h5 className="pb-3">Contacts Detail</h5>
                             <div className="row pr-3 pl-3">
                                 <div className="col-6 form-box mt-2">
-                                    <label for="exampleFormControlInput1"> Name</label>
-                                    <input type="email" class="form-control readonly " id="exampleFormControlInput1" placeholder="Name"  ></input>
+                                    <label for=""> Name</label>
+                                    <input type="email" class="form-control readonly " id="" placeholder="Name"  ></input>
                                 </div>
                                 <div className="col-6 form-box mt-2">
-                                    <label for="exampleFormControlInput1"> Designation</label>
-                                    <input type="email" class="form-control readonly " id="exampleFormControlInput1" placeholder="Designation"  ></input>
+                                    <label for=""> Designation</label>
+                                    <input type="email" class="form-control readonly " id="" placeholder="Designation"  ></input>
                                 </div>
                                 <div className="col-6 form-box mt-2">
-                                    <label for="exampleFormControlInput1"> Contact No</label>
-                                    <input type="email" class="form-control readonly " id="exampleFormControlInput1" placeholder="Designation"  ></input>
+                                    <label for=""> Contact No</label>
+                                    <input type="email" class="form-control readonly " id="" placeholder="Contact No"  ></input>
                                 </div>
                                 <div className="col-6 form-box mt-2">
-                                    <label for="exampleFormControlInput1"> Email</label>
-                                    <input type="email" class="form-control readonly " id="exampleFormControlInput1" placeholder="Email"  ></input>
+                                    <label for=""> Email</label>
+                                    <input type="email" class="form-control readonly " id="" placeholder="Email"  ></input>
                                 </div>
                                 <div className="col-6 form-box mt-2">
-                                    <label for="exampleFormControlInput1"> Other Contact</label>
-                                    <input type="email" class="form-control readonly " id="exampleFormControlInput1" placeholder="Email"  ></input>
+                                    <label for=""> Other Contact</label>
+                                    <input type="email" class="form-control readonly " id="" placeholder="Other"  ></input>
                                 </div>
                                 <div className="col-6 form-box mt-2">
-                                    <label for="exampleFormControlInput1"> Company</label>
-                                    <input type="email" class="form-control readonly " id="exampleFormControlInput1" placeholder="Email"  ></input>
+                                    <label for=""> Company</label>
+                                    <input type="email" class="form-control readonly " id="" placeholder="Company"  ></input>
                                 </div>
                                 <div className=" col-6 form-box mt-2">
                                     <div class="">
@@ -103,15 +103,15 @@ function Stakeholder() {
                                     </div>
                                 </div>
                                 <div className="col-6 form-box mt-2">
-                                    <label for="exampleFormControlInput1"> System User Name</label>
-                                    <input type="email" class="form-control readonly " id="exampleFormControlInput1" placeholder="Email"  ></input>
+                                    <label for=""> System User Name</label>
+                                    <input type="email" class="form-control readonly " id="" placeholder="System User Name"  ></input>
                                 </div>
                                 <div className="col-6 form-box mt-2">
-                                    <label for="exampleFormControlInput1"> Access Type</label>
-                                    <input type="email" class="form-control readonly " id="exampleFormControlInput1" placeholder="Email"  ></input>
+                                    <label for=""> Access Type</label>
+                                    <input type="email" class="form-control readonly " id="" placeholder="Access Type"  ></input>
                                 </div>
                             </div>
-                           
+                            <div class=" col-12 form-box"><button type="button" class="btn btn-primary-bridge-close float-right">Add another contact</button></div>
 
                         </div>
                         <div class="modal-footer">

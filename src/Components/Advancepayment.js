@@ -5,32 +5,28 @@ import React from 'react';
 function Advancepayment () {
     return (
         <div className="row pl-5 pt-4">
-            
-
-
             <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
                 <div class="modal-dialog modal-lg" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
                             <h5 class="modal-title" id="exampleModalLabel">Advance Payment</h5>
-
                         </div>
                         <div class="modal-body">
 
                             <div className="row pr-3 pl-3">
                             <div className="col-6 form-box mt-2">
-                                    <label for="exampleFormControlInput1"> Supplier</label>
-                                    <input type="email" class="form-control readonly " id="exampleFormControlInput1" placeholder="Supplier ID"  ></input>
+                                    <label for=""> Supplier</label>
+                                    <input type="email" class="form-control readonly " id="" placeholder="Supplier ID"  ></input>
                                 </div>
 
                                 <div className="col-6 form-box mt-2">
-                                    <label for="exampleFormControlInput1"> Supplier PI Number</label>
-                                    <input type="email" class="form-control readonly " id="exampleFormControlInput1" placeholder="Payment Term"  ></input>
+                                    <label for=""> Supplier PI Number</label>
+                                    <input type="email" class="form-control readonly " id="" placeholder="Supplier PI Number"  ></input>
                                 </div>
 
                                 <div className="col-6 form-box mt-2">
-                                    <label for="exampleFormControlInput1"> Amount</label>
-                                    <input type="email" class="form-control readonly " id="exampleFormControlInput1" placeholder="Due"  ></input>
+                                    <label for=""> Amount</label>
+                                    <input type="email" class="form-control readonly " id="" placeholder="Amount"  ></input>
                                 </div>
 
                                 <div className=" col-6 form-box mt-2">
@@ -48,8 +44,8 @@ function Advancepayment () {
 
                                 <div className=" col-6 form-box mt-2">
                                     <div class="">
-                                        <label for="exampleFormControlSelect1">Bank Name</label>
-                                        <select class="form-control" id="exampleFormControlSelect1">
+                                        <label for="">Bank Name</label>
+                                        <select class="form-control" id="">
                                             <option>Active</option>
                                             <option>2</option>
                                             
@@ -58,16 +54,16 @@ function Advancepayment () {
                                 </div>
 
                                 <div className="col-6 form-box mt-2">
-                                    <label for="exampleFormControlInput1"> Bank Address</label>
-                                    <input type="email" class="form-control readonly " id="exampleFormControlInput1" placeholder="Bank Address"  ></input>
+                                    <label for=""> Bank Address</label>
+                                    <input type="email" class="form-control readonly " id="" placeholder="Bank Address"  ></input>
                                 </div>
                                 <div className="col-6 form-box mt-2">
-                                    <label for="exampleFormControlInput1"> Payment Date</label>
-                                    <input type="email" class="form-control readonly " id="exampleFormControlInput1" placeholder="Bank Address"  ></input>
+                                    <label for=""> Payment Date</label>
+                                    <input type="email" class="form-control readonly " id="" placeholder="Payment Date"  ></input>
                                 </div>
                                 <div className="col-6 form-box mt-2">
-                                    <label for="exampleFormControlInput1"> Remittence Reference</label>
-                                    <input type="email" class="form-control readonly " id="exampleFormControlInput1" placeholder="Bank Address"  ></input>
+                                    <label for=""> Remittence Reference</label>
+                                    <input type="email" class="form-control readonly " id="" placeholder="Remittence Reference"  ></input>
                                 </div>
 
                             </div>
@@ -76,49 +72,49 @@ function Advancepayment () {
                             <div className="row pr-3 pl-3">
 
                             <div className="col-6 form-box mt-2">
-                                    <label for="exampleFormControlInput1"> Client Purchase Order Number</label>
-                                    <input type="email" class="form-control readonly " id="exampleFormControlInput1" placeholder="Bank Address"  ></input>
+                                    <label for=""> Client Purchase Order Number</label>
+                                    <input type="email" class="form-control readonly " id="" placeholder="Client Purchase Order Number"  ></input>
                                 </div>
 
                                 <div className="col-6 form-box mt-2">
-                                    <label for="exampleFormControlInput1">Purchase Order </label>
-                                    <input type="email" class="form-control readonly " id="exampleFormControlInput1" placeholder="Bank Address"  ></input>
+                                    <label for="">Purchase Order </label>
+                                    <input type="email" class="form-control readonly " id="" placeholder="Purchase Order "  ></input>
                                 </div>
 
                                 <div className="col-6 form-box mt-2">
-                                    <label for="exampleFormControlInput1"> Line No</label>
-                                    <input type="email" class="form-control readonly " id="exampleFormControlInput1" placeholder="Bank Address"  ></input>
+                                    <label for=""> Line No</label>
+                                    <input type="email" class="form-control readonly " id="" placeholder="Line No"  ></input>
                                 </div>
 
                                 <div className="col-6 form-box mt-2">
-                                    <label for="exampleFormControlInput1"> Item</label>
-                                    <input type="email" class="form-control readonly " id="exampleFormControlInput1" placeholder="Bank Address"  ></input>
+                                    <label for=""> Item</label>
+                                    <input type="email" class="form-control readonly " id="" placeholder="Item"  ></input>
                                 </div>
 
                                 <div className="col-6 form-box mt-2">
-                                    <label for="exampleFormControlInput1"> Line Quantity</label>
-                                    <input type="email" class="form-control readonly " id="exampleFormControlInput1" placeholder="Bank Address"  ></input>
+                                    <label for=""> Line Quantity</label>
+                                    <input type="email" class="form-control readonly " id="" placeholder="Line Quantity"  ></input>
                                 </div>
 
                                 <div className="col-6 form-box mt-2">
-                                    <label for="exampleFormControlInput1"> Amount</label>
-                                    <input type="email" class="form-control readonly " id="exampleFormControlInput1" placeholder="Bank Address"  ></input>
+                                    <label for=""> Amount</label>
+                                    <input type="email" class="form-control readonly " id="" placeholder="Amount"  ></input>
                                 </div>
 
                                 <div className="col-6 form-box mt-2">
-                                    <label for="exampleFormControlInput1"> Received Amount</label>
-                                    <input type="email" class="form-control readonly " id="exampleFormControlInput1" placeholder="Bank Address"  ></input>
+                                    <label for=""> Received Amount</label>
+                                    <input type="email" class="form-control readonly " id="" placeholder="Received Amount"  ></input>
                                 </div>
 
                                 <div className="col-6 form-box mt-2">
-                                    <label for="exampleFormControlInput1"> Remaining Amount</label>
-                                    <input type="email" class="form-control readonly " id="exampleFormControlInput1" placeholder="Bank Address"  ></input>
+                                    <label for=""> Remaining Amount</label>
+                                    <input type="email" class="form-control readonly " id="" placeholder="Remaining Amount"  ></input>
                                 </div>
 
                                 <div className=" col-6 form-box mt-2">
                                     <div class="">
-                                        <label for="exampleFormControlSelect1">Incoterms</label>
-                                        <select class="form-control" id="exampleFormControlSelect1">
+                                        <label for="">Incoterms</label>
+                                        <select class="form-control" id="">
                                             <option>1</option>
                                             <option>2</option>
                                             <option>3</option>
@@ -135,8 +131,8 @@ function Advancepayment () {
                             <div className="row pr-3 pl-3">
                             <div className=" col-6 form-box mt-2">
                                     <div class="">
-                                        <label for="exampleFormControlSelect1">Reference</label>
-                                        <select class="form-control" id="exampleFormControlSelect1">
+                                        <label for="">Reference</label>
+                                        <select class="form-control" id="">
                                             <option>1</option>
                                             <option>2</option>
                                             <option>3</option>
@@ -147,8 +143,8 @@ function Advancepayment () {
                                 </div>
 
                                 <div className="col-6 form-box mt-2">
-                                    <label for="exampleFormControlInput1"> Uploaded Date</label>
-                                    <input type="email" class="form-control readonly " id="exampleFormControlInput1" placeholder="Bank Address"  ></input>
+                                    <label for=""> Uploaded Date</label>
+                                    <input type="text" class="form-control readonly " id="" placeholder="Uploaded Date"  ></input>
                                 </div>
                                 
                             </div>

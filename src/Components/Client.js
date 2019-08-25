@@ -72,7 +72,7 @@ function Client() {
 
                             <hr>
                             </hr>
-                            <h5 className="pb-3">Attachment</h5>
+                            <h5 className="pb-3">Attachments</h5>
                             <div className="row pr-3 pl-3">
                                 <div className=" col-6 form-box mt-2">
                                     <label for="">Description</label>
@@ -94,9 +94,10 @@ function Client() {
                                     <label for="">Remarks</label>
                                     <input type="email" class="form-control" id="" placeholder="Remarks"  ></input>
                                 </div>
+                                <div class=" col-12 form-box"><button type="button" class="btn btn-primary-bridge-close float-right">Add another attachment</button></div>
                             </div>
                             <hr></hr>
-                            <h5 className="pb-3">Contact</h5>
+                            <h5 className="pb-3">Contacts</h5>
                             <div className="row pr-3 pl-3">
 
                                 <div className=" col-6 form-box mt-2">
@@ -119,10 +120,11 @@ function Client() {
                                     <label for="">Other Contact Details</label>
                                     <input type="email" class="form-control" id="" placeholder="Other Contact Details" ></input>
                                 </div>
+                                <div class=" col-12 form-box"><button type="button" class="btn btn-primary-bridge-close float-right">Add another contact</button></div>
                             </div>
 
                             <hr></hr>
-                            <h5 className="pb-3">Entity</h5>
+                            <h5 className="pb-3">Entities</h5>
                             <div className="row pr-3 pl-3">
 
                                 <div className=" col-6 form-box mt-2">
@@ -151,10 +153,10 @@ function Client() {
                                         <select class="form-control" id="exampleFormControlSelect1">
                                             <option>1</option>
                                             <option>2</option>
-
                                         </select>
                                     </div>
                                 </div>
+                                <div class=" col-12 form-box"><button type="button" class="btn btn-primary-bridge-close float-right">Add another entity</button></div>
                             </div>
 
                             <hr></hr>
