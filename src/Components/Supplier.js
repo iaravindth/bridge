@@ -89,6 +89,7 @@ function Material() {
                                 
                             </div>
                             <hr></hr>
+                            <h5 className="pb-3">Clients</h5>
                             <div className="row pr-3 pl-3">
                             <div className=" col-6 form-box mt-2">
                                 <div class="">
@@ -124,9 +125,11 @@ function Material() {
                                             <option>5</option>
                                         </select>
                                         </div>
+                                        <div class=" col-12 form-box"><button type="button" class="btn btn-primary-bridge-close float-right">Add another client</button></div>
                             </div>
 
                             <hr></hr>
+                            <h5 className="pb-3">Contacts</h5>
                             <div className="row pr-3 pl-3">
                            
                                     <div className=" col-6 form-box mt-2">
