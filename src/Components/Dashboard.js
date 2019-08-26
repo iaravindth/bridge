@@ -15,6 +15,10 @@ import Advancepayment from './Advancepayment';
 import LetterOfCredit from '../LetterOfCredit ';
 import HScode from './HSCode';
 import Login from './Login';
+import Signup from './Signup';
+import Forgetpassword from './Foregetpassword';
+import Userprofile from './Userprofile';
+
 
 
 function Dashboard() {
@@ -22,6 +26,8 @@ function Dashboard() {
     <div className="container-fluid p-0 login">
       <div className="row  ">
           <div className="col-lg-12"> 
+          {/* <Forgetpassword></Forgetpassword> */}
+          {/* <Signup></Signup> */}
           {/* <Login></Login> */}
               <Header></Header>
           </div>
@@ -29,8 +35,10 @@ function Dashboard() {
               <Sidebar></Sidebar>
           </div>
         <div className="col-lg-10 content-area">
+          
           <Router basename="/bridge">
             <Switch>
+           
               <Route
                 path="/admin/manage/add-client"
                 component={Client}
@@ -66,6 +74,9 @@ function Dashboard() {
               <Route
                 path="/admin/manage/add-material"
                 component={Material} />
+                 <Route
+                path="/admin/manage/user-profile"
+                component={Userprofile} />
             </Switch>
           </Router>
         

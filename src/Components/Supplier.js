@@ -19,16 +19,16 @@ function Material() {
                             <div className="row pr-3 pl-3">
 
                                 <div className="col-6 form-box mt-2">
-                                    <label for="exampleFormControlInput1">Supplier ID</label>
-                                    <input type="email" class="form-control readonly " id="exampleFormControlInput1" placeholder="Supplier ID" readOnly ></input>
+                                    <label for="">Supplier ID</label>
+                                    <input type="text" class="form-control readonly " id="" placeholder="Supplier ID" readOnly ></input>
                                 </div>
                                 <div className=" col-6 form-box mt-2">
-                                    <label for="exampleFormControlInput1">Supplier Name</label>
-                                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Supplier Name"></input>
+                                    <label for="">Supplier Name</label>
+                                    <input type="text" class="form-control" id="" placeholder="Supplier Name"></input>
                                 </div>
                                 <div className=" col-6 form-box mt-2">
-                                    <label for="exampleFormControlInput1">Supplier Address</label>
-                                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Supplier Address"></input>
+                                    <label for="">Supplier Address</label>
+                                    <input type="text" class="form-control" id="" placeholder="Supplier Address"></input>
                                 </div>
                                 <div className=" col-6 form-box mt-2">
                                     <div class="">
@@ -67,24 +67,24 @@ function Material() {
                                     </div>
                                 </div>
                                 <div className=" col-6 form-box mt-2">
-                                    <label for="exampleFormControlInput1">Sea freight transit time</label>
-                                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Sea freight transit time"></input>
+                                    <label for="">Sea freight transit time</label>
+                                    <input type="text" class="form-control" id="" placeholder="Sea freight transit time"></input>
                                 </div>
                                 <div className=" col-6 form-box mt-2">
-                                    <label for="exampleFormControlInput1">Air freight transit time</label>
-                                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Air freight transit time"></input>
+                                    <label for="">Air freight transit time</label>
+                                    <input type="text" class="form-control" id="" placeholder="Air freight transit time"></input>
                                 </div>
                                 <div className=" col-6 form-box mt-2">
-                                    <label for="exampleFormControlInput1">Supplier's web site name</label>
-                                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Supplier's web site name"></input>
+                                    <label for="">Supplier's web site name</label>
+                                    <input type="text" class="form-control" id="" placeholder="Supplier's web site name"></input>
                                 </div>
                                 <div className=" col-6 form-box mt-2">
-                                    <label for="exampleFormControlInput1">Link to supplier's catalouges</label>
-                                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Link to supplier's catalouges"></input>
+                                    <label for="">Link to supplier's catalouges</label>
+                                    <input type="text" class="form-control" id="" placeholder="Link to supplier's catalouges"></input>
                                 </div>
                                 <div className=" col-12 form-box mt-2">
-                                    <label for="exampleFormControlInput1">General Shipping Instructions</label>
-                                    <textarea type="email" class="form-control" id="exampleFormControlInput1" placeholder="General Shipping Instructions"></textarea>
+                                    <label for="">General Shipping Instructions</label>
+                                    <textarea type="text" class="form-control" id="" placeholder="General Shipping Instructions"></textarea>
                                 </div>
                                 
                             </div>
@@ -104,19 +104,19 @@ function Material() {
                                     </div>
                                     </div>
                                     <div className=" col-6 form-box mt-2">
-                                    <label for="exampleFormControlInput1">Incoterm</label>
-                                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Incoterm" readOnly ></input>
+                                    <label for="">Incoterm</label>
+                                    <input type="text" class="form-control" id="" placeholder="Incoterm" readOnly ></input>
                                 </div>
                                 <div className=" col-6 form-box mt-2">
-                                    <label for="exampleFormControlInput1">Payment Terms</label>
-                                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Payment Terms" readOnly></input>
+                                    <label for="">Payment Terms</label>
+                                    <input type="text" class="form-control" id="" placeholder="Payment Terms" readOnly></input>
                                 </div>
                                 <div className=" col-6 form-box mt-2">
-                                    <label for="exampleFormControlInput1">Bank</label>
-                                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Bank" readOnly></input>
+                                    <label for="">Bank</label>
+                                    <input type="text" class="form-control" id="" placeholder="Bank" readOnly></input>
                                 </div>
                                 <div className=" col-6 form-box mt-2">
-                                    <label for="exampleFormControlInput1">Defualt transport mode</label>
+                                    <label for="">Defualt transport mode</label>
                                     <select class="form-control" id="exampleFormControlSelect1">
                                             <option>1</option>
                                             <option>2</option>
@@ -133,24 +133,24 @@ function Material() {
                             <div className="row pr-3 pl-3">
                            
                                     <div className=" col-6 form-box mt-2">
-                                    <label for="exampleFormControlInput1">Contact Person</label>
-                                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Contact Person"  ></input>
+                                    <label for="">Contact Person</label>
+                                    <input type="text" class="form-control" id="" placeholder="Contact Person"  ></input>
                                 </div>
                                 <div className=" col-6 form-box mt-2">
-                                    <label for="exampleFormControlInput1">Our Client</label>
-                                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Payment Terms" ></input>
+                                    <label for="">Our Client</label>
+                                    <input type="text" class="form-control" id="" placeholder="Payment Terms" ></input>
                                 </div>
                                 <div className=" col-6 form-box mt-2">
-                                    <label for="exampleFormControlInput1">Telephone</label>
-                                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Telephone" ></input>
+                                    <label for="">Telephone</label>
+                                    <input type="text" class="form-control" id="" placeholder="Telephone" ></input>
                                 </div>
                                 <div className=" col-6 form-box mt-2">
-                                    <label for="exampleFormControlInput1">Mobile</label>
-                                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Mobile" ></input>
+                                    <label for="">Mobile</label>
+                                    <input type="text" class="form-control" id="" placeholder="Mobile" ></input>
                                 </div>
                                 <div className=" col-6 form-box mt-2">
-                                    <label for="exampleFormControlInput1">Email</label>
-                                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email" ></input>
+                                    <label for="">Email</label>
+                                    <input type="text" class="form-control" id="" placeholder="Email" ></input>
                                 </div>
                                 <div className=" col-12 form-box">
                                 <button type="button" class="btn btn-primary-bridge-close float-right">Add another contact</button>
