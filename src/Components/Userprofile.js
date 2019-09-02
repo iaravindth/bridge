@@ -1,5 +1,4 @@
 import React from 'react';
-import bridge from '../img/BRIDGE.svg'
 import '../Components/Login.css';
 
 
@@ -60,59 +59,42 @@ function Login() {
              <h5>Page Name</h5>
             </div>
             <div className="col-lg-2">
-            <div class="custom-control custom-switch">
-                <input type="checkbox" class="custom-control-input" id="customSwitch"></input>
-                <label class="custom-control-label" for="customSwitch1">Read</label>
-              </div>
+           
+              <span class="badge badge-dark">Read</span>
             </div>
             <div className="col-lg-2">
-            <div class="custom-control custom-switch">
-                <input type="checkbox" class="custom-control-input" id="customSwitch"></input>
-                <label class="custom-control-label" for="customSwitch1">write</label>
-              </div>
+          
+              <span class="badge badge-secondary">write</span>
             </div>
             <div className="col-lg-2">
-            <div class="custom-control custom-switch">
-                <input type="checkbox" class="custom-control-input" id="customSwitch"></input>
-                <label class="custom-control-label" for="customSwitch1">Upload</label>
-              </div>
+           
+              <span class="badge badge-dark">Upload</span>
             </div>
             <div className="col-lg-2">
-            <div class="custom-control custom-switch">
-                <input type="checkbox" class="custom-control-input" id="customSwitch"></input>
-                <label class="custom-control-label" for="customSwitch1">Create</label>
-              </div>
+           
+              <span class="badge badge-secondary">Create</span>
             </div>
           </div>
         </div>
-<div className="col-lg-12">
+        <div className="col-lg-12">
           <div className="row">
             <div className="col-lg-4">
-             <h5>Page Name</h5>
+             <h5>Page Name 2</h5>
             </div>
             <div className="col-lg-2">
-            <div class="custom-control custom-switch">
-                <input type="checkbox" class="custom-control-input" id="customSwitch"></input>
-                <label class="custom-control-label" for="customSwitch1">Read</label>
-              </div>
+           
+              <span class="badge badge-dark">Read</span>
             </div>
             <div className="col-lg-2">
-            <div class="custom-control custom-switch">
-                <input type="checkbox" class="custom-control-input" id="customSwitch"></input>
-                <label class="custom-control-label" for="customSwitch1">write</label>
-              </div>
+          
+              <span class="badge badge-dark">write</span>
             </div>
             <div className="col-lg-2">
-            <div class="custom-control custom-switch">
-                <input type="checkbox" class="custom-control-input" id="customSwitch"></input>
-                <label class="custom-control-label" for="customSwitch1">Upload</label>
-              </div>
+           
+              <span class="badge badge-dark">Upload</span>
             </div>
             <div className="col-lg-2">
-            <div class="custom-control custom-switch">
-                <input type="checkbox" class="custom-control-input" id="customSwitch"></input>
-                <label class="custom-control-label" for="customSwitch1">Create</label>
-              </div>
+              <span class="badge badge-secondary">Create</span>
             </div>
           </div>
         </div>

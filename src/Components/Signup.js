@@ -6,9 +6,9 @@ import '../Components/Login.css';
 
 function Login() {
   return (
-    <div className="">
-      <div className="row  justify-content-center align-self-center ">
-        <div className="col-lg-6 mx-auto">
+    <div className="container ">
+      <div className="row justify-content-center align-self-center ">
+        <div className="col-lg-6 mx-auto pb-5 pt-5">
         <img src={bridge} className="mx-auto d-block mb-5" ></img>
 
         <div className="form-group">

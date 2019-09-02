@@ -18,13 +18,25 @@ import Login from './Login';
 import Signup from './Signup';
 import Forgetpassword from './Foregetpassword';
 import Userprofile from './Userprofile';
-
+import Accept_User from './Accept_User';
+import Role from './Role';
 
 
 function Dashboard() {
   return (
     <div className="container-fluid p-0 login">
       <div className="row  ">
+      <Router basename="/bridge">
+          <Route
+                path="/Login"
+                component={Login} />
+                   <Route
+                path="/Foregetpassword"
+                component={Forgetpassword} />
+                <Route
+                path="/Signup"
+                component={Signup} />
+                </Router>
           <div className="col-lg-12"> 
           {/* <Forgetpassword></Forgetpassword> */}
           {/* <Signup></Signup> */}
@@ -34,9 +46,12 @@ function Dashboard() {
           <div className="col-lg-2 pr-0">
               <Sidebar></Sidebar>
           </div>
-        <div className="col-lg-10 content-area">
           
+        <div className="col-lg-10 content-area">
+       
+
           <Router basename="/bridge">
+            
             <Switch>
            
               <Route
@@ -77,6 +92,13 @@ function Dashboard() {
                  <Route
                 path="/admin/manage/user-profile"
                 component={Userprofile} />
+                <Route
+                path="/admin/manage/Accept_User"
+                component={Accept_User} />
+                 <Route
+                path="/admin/manage/Role"
+                component={Role} />
+                
             </Switch>
           </Router>
         
