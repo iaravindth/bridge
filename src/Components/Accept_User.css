@@ -7,3 +7,10 @@
     align-items: center;
     display: flex;
 }
+.btn-primary-bridge-dark{
+    background-color: #343a40;
+    color: white;
+    height: 45px;
+    border-radius: 0;
+    border: 1px solid #343a40;
+}

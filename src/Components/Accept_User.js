@@ -7,16 +7,14 @@ function AcceptUser() {
     <div className="">
       <div className="row pr-5 pl-5 pt-3 ">
         <div className="col-lg-12 user_row">
-         
-
             <div className="row ">
               <div className="col-lg-8 user-name">
                 <div className="">User name 1</div>
             </div>
               <div className="col-lg-4">
               <div className="float-right">
-              <button type="button" class="btn btn-primary mr-2" data-toggle="modal" data-target=".bd-example-modal-lg2">Activate</button>
-              <button type="button" class="btn btn-dark">Reject</button>
+              <button type="button" class="btn btn-primary-bridge mr-2" data-toggle="modal" data-target=".bd-example-modal-lg2">Activate</button>
+              <button type="button" class="btn btn-primary-bridge-dark">Reject</button>
               </div>
               </div>
             </div>
@@ -31,8 +29,8 @@ function AcceptUser() {
          </div>
            <div className="col-lg-4">
            <div className="float-right">
-           <button type="button" class="btn btn-primary mr-2"  data-toggle="modal" data-target=".bd-example-modal-lg2">Activate</button>
-           <button type="button" class="btn btn-dark">Reject</button>
+           <button type="button" class="btn btn-primary-bridge mr-2"  data-toggle="modal" data-target=".bd-example-modal-lg2">Activate</button>
+           <button type="button" class="btn btn-primary-bridge-dark">Reject</button>
            </div>
            </div>
          </div>
