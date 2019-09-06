@@ -2,8 +2,6 @@ import React from 'react';
 import bridge from '../img/BRIDGE.svg'
 import '../Components/Login.css';
 
-
-
 function Login() {
   return (
     <div className="container ">
